@@ -4,7 +4,7 @@ title: "Department of Bad Ideas"
 author: "John Peart"
 
 
-baseurl: "/podcasts/department-of-bad-ideas" # the subpath of your site, e.g. /blog
+baseurl: "/dept-of-bad-ideas" # the subpath of your site, e.g. /blog
 url: "https://johnpe.art"
 
 # Podcast Feed Settings
