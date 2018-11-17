@@ -1,0 +1,90 @@
+body#home {
+	main { 
+		
+		.home--intro {
+			min-height: 			100vh;
+			
+			background: 			$black;
+			color: 					$white;
+			
+			@include tablet {
+				padding: 0rem 2rem;
+			}
+			
+			@include desktop {
+				padding: 0rem 10rem;
+			}
+			
+			p, li, h1, h2 {
+				line-height: 		1.5;
+			}
+			
+			p.first {
+				font-size: 			$font-size-base * 3;
+				
+				@include tablet-up {
+					font-size: 		$font-size-base * 2;
+				}
+			}
+			
+			ol {
+				@include tablet-up {
+					padding-left: 	0;
+				}
+				
+				li {
+					@include tablet-up {
+						padding: 			0.25rem 0;
+					}
+				}
+			}
+		}
+		
+		.home--loop {
+			display: 				grid;
+			
+			grid-template-rows: 		auto auto;
+			grid-template-columns: 		auto;
+			grid-row-gap: 				30px;
+			grid-template-areas: 		"desc"
+										"feed";
+			
+			@include tablet {
+				grid-template-rows: 		auto;
+				grid-template-columns: 		30% auto;
+				grid-column-gap: 			50px;
+				grid-template-areas: 		"desc feed";
+			}
+			
+			@include desktop {
+				grid-template-rows: 		auto;
+				grid-template-columns: 		35% auto;
+				grid-column-gap: 			50px;
+				grid-template-areas: 		"desc feed";
+			}
+			
+					
+			.home--desc {
+				grid-area: 				desc;
+				
+				div.home--podcast-info {
+					@include tablet-up {
+						display: inline-block;
+						width: 100%;
+														
+						position:				-webkit-sticky;
+						position: 				sticky;
+			
+						top: 					0;
+						bottom: 				auto;
+						
+						padding: 				10px 0;
+					}
+				}
+			}
+			.home--feed {
+				grid-area: 				feed;
+			}
+		}
+	}
+}

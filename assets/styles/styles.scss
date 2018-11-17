@@ -1,0 +1,33 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// STYLES
+
+@import
+
+	// Fonts
+	"_fonts.scss",
+
+	// Utilities
+	"_variables.scss",
+	"mixins/_breakpoints.scss",
+	"mixins/_backgrounds.scss",
+	"helpers/_screenreaders.scss",
+
+	// Global code
+	"_global.scss",
+	"_animations.scss",
+	"_typography.scss",
+	"_header.scss",
+	"_footer.scss",
+	"_loop.scss",
+	"_player.scss",
+
+	// Page specific
+	"_four-oh-four.scss",
+	"_home.scss",
+	"_post.scss"
+	
+;

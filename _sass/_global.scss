@@ -1,0 +1,100 @@
+:root {
+  font-size: calc(0.6vw + 0.6vh + .5vmin);
+}
+
+@at-root {
+	@-ms-viewport { 
+		width: device-width;
+	} // stylelint-disable-line at-rule-no-vendor-prefix
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: normal;
+  
+	input, textarea {
+	  -webkit-appearance: none;
+	  -webkit-border-radius: 0;
+	}
+}
+
+html {
+  -ms-overflow-style: scrollbar;
+}
+
+html,
+body {
+	background: 		$yellow;
+	color:				$black;
+	
+	font-family: 		$font-family-base;
+	
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	@supports(padding: max(0px)) {
+		// iOS 11.0 - 11.1
+		padding-top: unquote('max(0px, constant(safe-area-inset-top))');
+		padding-bottom: unquote('max(0px, constant(safe-area-inset-bottom))');
+		padding-left: unquote('max(0px, constant(safe-area-inset-left))');
+		padding-right: unquote('max(0px, constant(safe-area-inset-right))');
+		// iOS 11.2
+		padding-top: unquote('max(0px, env(safe-area-inset-top))');
+		padding-bottom: unquote('max(0px, env(safe-area-inset-bottom))');
+		padding-left: unquote('max(0px, env(safe-area-inset-left))');
+		padding-right: unquote('max(0px, env(safe-area-inset-right))');
+	}
+
+}
+
+header {
+	display: grid;
+	
+	padding: 				1rem;
+	margin: 				0rem;
+	
+	color: 					$white;
+}
+
+main {
+	display: block;
+	
+	background: 			$gray-100;
+	color:					$black;
+	
+	align-content: 			center;
+	justify-content: 		center;
+}
+
+.container {
+	padding: 				4rem 2rem;
+	@include tablet-up {
+		padding: 				4rem 10rem;
+	}
+	margin: 				0rem;
+}
+
+footer {
+	display: block;
+	
+	padding:				2rem;
+	@include tablet-up {
+		padding: 				2rem 10rem;
+	}
+	
+	margin: 				0rem;
+	
+	background:				$yellow;
+	color:					$black;
+	
+	align-content: 			center;
+	justify-content: 		center;
+	
+}

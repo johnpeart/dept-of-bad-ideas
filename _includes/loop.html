@@ -1,0 +1,21 @@
+<ul class="home--feed-loop">
+	
+{% for post in site.posts reversed %}
+
+	<li class="loop--item">
+
+		<h2 class="loop--item-title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
+		<p class="loop--item-metadata"><strong>Duration</strong> {{ post.duration | replace: ':', ' mins, ' | append: ' secs' }}</p>
+		<p class="loop--item-metadata"><strong>Released</strong> {{ post.date | date: "%d %B %Y" }} </p>
+		<p class="loop--item-metadata"><strong>File size</strong> {{ post.length | divided_by: 1048576 | append: ' MB' }}</p>
+		<p class="loop--item-text">{{ post.excerpt }}</p>
+		<p class="loop--item-links">
+			<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Listen</a>
+			<a href="{{ post.file }}" class="loop--item-link">Download</a>
+		</p>
+
+	</li>
+
+{% endfor %}
+
+</ul>

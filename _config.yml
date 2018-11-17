@@ -1,0 +1,57 @@
+# Site settings
+
+title: "Department of Bad Ideas"
+author: "John Peart"
+
+
+baseurl: "/podcasts/department-of-bad-ideas" # the subpath of your site, e.g. /blog
+url: "https://johnpe.art"
+
+# Podcast Feed Settings
+
+email:          "podcasts@johnpe.art"
+description: 	"A podcast about the unsaleable, the impractical and the impossible of policy."
+lang:           "en"
+launch_date:	2019-01-01
+copyright:      "&#x2117; &amp; &#xA9; 2019"
+
+# Site settings
+
+# Images and assets
+image-path: "/assets/images"
+css-path: "/assets/styles"
+js-path: "/assets/scripts"
+
+# Artwork
+
+logo-png: "/assets/images/site/logo.png"
+logo-svg: "/assets/images/site/logo.svg"
+
+social-media-image: "/assets/images/site/social-media.png"
+
+touch: "/assets/images/site/touch.png"
+pinned: "/assets/images/site/pinned.svg"
+pinned-colour: "#FFD700"
+logo-favicon-small: "/assets/images/site/favicon-16x16.png"
+logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
+logo-favicon-large: "/assets/images/site/favicon-96x96.png"
+
+#Analytics
+google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
+disable-analytics: true # Switch to "false" to start GA logging
+google-analytics: "UA-27553664-1" # GA ID code
+
+# Plugins and build settings
+
+permalink: pretty
+markdown: kramdown
+future: false
+sass:
+    sass_dir: _sass
+    sourcemap: true
+
+plugins:
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-paginate

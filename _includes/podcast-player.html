@@ -1,0 +1,29 @@
+<div id="playback">
+	
+	<audio id="music" preload="true">
+		<source src="{{ site.url | append: site.baseurl | append: page.file }}" type="{{ page.file_type }}">
+		Your browser does not support the audio element.
+	</audio>
+
+	<div id="audioplayer">
+
+		<button id="pButton" class="play"></button>
+
+		<div id="marquee">
+				<span>{{ page.title }}</span>
+		</div>
+
+		<div id="timeline">
+			<div id="playhead"></div>
+			<div id="start">00:00</div>
+			<div id="end">
+			    {% if page.duration %}
+			      	{{ page.duration }}
+			    {% else %}
+			      	--:--
+			    {% endif %}
+			</div>
+		</div>
+	</div>
+
+</div>

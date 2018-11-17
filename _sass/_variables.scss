@@ -1,0 +1,62 @@
+// breakpoints
+
+$mobile: 0;
+$tablet: 768px;
+$desktop: 1024px;
+
+// colours
+
+$white:    #ffffff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000000 !default;
+
+$blue:    #007aff !default;
+$indigo:  #1d62f0 !default;
+$purple:  #c643fc !default;
+$pink:    #ff2a68 !default;
+$red:     #FF1300 !default;
+$orange:  #ff5e3a !default;
+$yellow:  #FFD700 !default;
+$green:   #0bd318 !default;
+$cyan:    #1ad6fd !default;
+
+$heading-color:			$black;
+
+$link-color:			$black;
+$link-hover-color:		$black;
+
+$code-color:			$black;
+
+// fonts
+
+$font-family-sans-serif:      'Bitter', -apple-system, "Helvetica Neue", "Helvetica", BlinkMacSystemFont, Roboto, "Segoe UI", Arial, sans-serif !default;
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+// links
+
+$link-text-decoration:				none;
+$link-text-decoration-hover:		underline;
+$link-outline:						none;
+
+// base text
+
+$font-size-base:				1rem;
+$font-line-height:				1.2;
+
+// headings
+
+$heading1-font-size-base:		2.5rem;
+$heading2-font-size-base:		2rem;
+$heading3-font-size-base:		1.8rem;
+$heading4-font-size-base:		1.6rem;
+$heading5-font-size-base:		1.4rem;
+$heading6-font-size-base:		1.25rem;
