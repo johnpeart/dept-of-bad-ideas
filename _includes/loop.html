@@ -1,21 +1,45 @@
-<ul class="home--feed-loop">
+<h1 class="home--feed-title">News and updates</h1>
+
+<ul class="home--feed-loop home--feed-loop-posts">
 	
-{% for post in site.posts reversed %}
+	{% for post in site.posts reversed %}
 
 	<li class="loop--item">
 
 		<h2 class="loop--item-title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
-		<p class="loop--item-metadata"><strong>Duration</strong> {{ post.duration | replace: ':', ' mins, ' | append: ' secs' }}</p>
-		<p class="loop--item-metadata"><strong>Released</strong> {{ post.date | date: "%d %B %Y" }} </p>
-		<p class="loop--item-metadata"><strong>File size</strong> {{ post.length | divided_by: 1048576 | append: ' MB' }}</p>
+		<p class="loop--item-metadata"><strong>Published</strong>{{ post.date | date: "%d %B %Y" }} </p>
 		<p class="loop--item-text">{{ post.excerpt }}</p>
 		<p class="loop--item-links">
-			<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Listen</a>
-			<a href="{{ post.file }}" class="loop--item-link">Download</a>
+			<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Read more</a>
 		</p>
 
 	</li>
 
-{% endfor %}
+	{% endfor %}
 
 </ul>
+
+<h1 class="home--feed-title">Episodes</h1>
+
+<ul class="home--feed-loop home--feed-loop-episodes">
+	
+	{% for episode in site.episodes reversed %}
+
+	<li class="loop--item">
+
+		<h2 class="loop--item-title"><a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ episode.title }}</a></h2>
+		<p class="loop--item-metadata"><strong>Duration</strong> {{ episode.duration | replace: ':', ' mins, ' | append: ' secs' }}</p>
+		<p class="loop--item-metadata"><strong>Released</strong> {{ episode.date | date: "%d %B %Y" }} </p>
+		<p class="loop--item-metadata"><strong>File size</strong> {{ episode.length | divided_by: 1048576 | append: ' MB' }}</p>
+		<p class="loop--item-text">{{ episode.excerpt }}</p>
+		<p class="loop--item-links">
+			<a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Listen</a>
+			<a href="{{ episode.file }}" class="loop--item-link">Download</a>
+		</p>
+
+	</li>
+
+	{% endfor %}
+
+</ul>
+

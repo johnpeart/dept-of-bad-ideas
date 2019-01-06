@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: episode
 
 title: "Preview: “Department of Bad Ideas”"
-date: 2018-12-15 21:54:00
+date: 2019-01-01 21:54:00
 
 duration: "0:14" # audio length in min
 length: "520,768" # filesize in byte

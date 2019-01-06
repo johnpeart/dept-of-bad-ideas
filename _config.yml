@@ -49,6 +49,14 @@ future: false
 sass:
     sass_dir: _sass
     sourcemap: true
+    
+collections:
+  episodes:
+    output: true
+    permalink: /episode/:path/
+    defaults:
+      values:
+        layout: episode
 
 plugins:
 - jekyll-sitemap
