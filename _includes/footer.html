@@ -1,6 +1,18 @@
-<footer id="site-footer">
+<footer id="footer--site-footer">
+	
+	<div class="container">
+		
+		<div id="footer--site-logo">
 
-	<p class="footer--text"><strong>{{ site.title }}</strong> {{ site.subtitle }}</p>
-	<p class="footer--text">Brought to you by <a href="https://johnpe.art/" title="Visit John's blog">John Peart</a></p>
+				<img class="footer--site-logo--logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/footer-logo.svg'}}" alt="Department of Bad Ideas logo">
+				
+				<div class="footer--site-logo--text">
+					<h1 class="footer--site-footer--title"><strong>{{ site.title }}</strong> {{ site.subtitle }}</h1>
+					<p class="footer--site-footer--author">Brought to you by <a href="https://johnpe.art/" title="Visit John's blog">John Peart</a></p>
+				</div>
+
+		</div>
+	
+	</div>
 
 </footer>

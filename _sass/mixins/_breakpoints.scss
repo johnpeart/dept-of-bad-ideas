@@ -2,14 +2,6 @@
 
 // Breakpoints
 
-/* breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px
-); */
-
 
 // BREAKPOINT ONLY 
 
@@ -23,6 +15,14 @@
 @mixin tablet {
 	@media 	only screen 
 			and (min-width: $tablet)
+			and (max-width: $desktop - 1px) {
+				@content;
+			}
+}
+
+@mixin tablet-landscape {
+	@media 	only screen 
+			and (min-width: $tablet-landscape)
 			and (max-width: $desktop - 1px) {
 				@content;
 			}
@@ -48,6 +48,13 @@
 @mixin tablet-up {
 	@media 	only screen 
 			and (min-width: $tablet) {
+				@content;
+			}
+}
+
+@mixin tablet-down {
+	@media 	only screen 
+			and (max-width: $desktop - 1px) {
 				@content;
 			}
 }

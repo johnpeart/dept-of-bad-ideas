@@ -1,41 +1,34 @@
 <header id="site-title">
-
-	{% if page.layout == "home" %}
 	
-	<div class="site-header--logo">
-		
-		<img class="header--site-logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}">
-		
-		<h1 class="header--site-title">Department<br>of Bad Ideas</h1>
-		
-	</div>
+	<div class="container">
 	
-	<img class="header--down-arrow" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-down-arrow.svg'}}">
-	
-	{% elsif page.layout == "four-oh-four" %}
-	
-	<div class="site-header--logo">
-		
-		<img class="header--site-logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}">
-		
-		<h1 class="header--site-title"><strong>404 error:</strong> Page not found</h1>
-					
-		<p class="header--site-subtitle--link"><a href="{{ site.url | append: site.baseurl }}" title="Go to the home page">Try the home page?</a></p>
-	
-	</div>
-
-	{% else %}
-	
-		<div class="site-header--logo">
-		
-			<img class="header--site-logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}">
+		<div id="header--site-logo">
 			
-			<h1 class="header--site-title"><a href="{{ site.url | append: site.baseurl }}" title="Go to the home page">Department<br>of Bad Ideas</a></h1>
-						
-			<p class="header--site-subtitle">{{ page.title }}</p>
-	
+			<img class="header--site-logo--logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}" alt="Department of Bad Ideas logo">
+			
+			<h1 class="header--site-logo--title"><span class="header--site-title--newline">Department </span><span class="header--site-title--newline">of Bad Ideas</span></h1>
+					
 		</div>
 		
-	{% endif %}
+		<div id="header--site-navigation">
+			
+			<ul class="header--site-navigation--menu">
+				<li class="header--site-navigation--menu-item">
+					{% if page.layout == "home" %}
+					<a href="{{ site.url | append: site.baseurl }}" class="active">Home</a>
+					{% else %}
+					<a href="{{ site.url | append: site.baseurl }}">Home</a>
+					{%endif%}
+				</li>
+				{% for item in site.data.header--site-navigation--items %}
+				<li class="header--site-navigation--menu-item">
+					<a href="{{ item.url }}" {% if page.url contains item.url %}class="active"{% endif %}>{{ item.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+			
+		</div>
+	
+	</div>
 	
 </header>

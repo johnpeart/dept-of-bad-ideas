@@ -1,7 +1,66 @@
-footer {
+footer#footer--site-footer {
 	
-	p.footer--text {
-		color: 			$black;
+	background:			$black;
+	color: 				$yellow !important;
+	
+	min-height: 		100px;
+	width: 				100%;
+		
+	div.container {
+		@include 	clearfix;		
 	}
 	
+	div#footer--site-logo {
+		
+		position: 	relative;		
+		display: 	inline-block;
+
+		@include mobile {
+			margin-bottom: 	20px;
+		}
+
+		@include tablet-up {			
+			float:		left;
+		}
+
+		@include 	clearfix;		
+		
+		img.footer--site-logo--logo {
+			
+			position: 		relative;
+			display: 		inline-block;
+			
+			max-height: 	60px;
+			margin-right: 	20px;
+			
+			float:			left;
+		}
+		
+		div.footer--site-logo--text {
+
+			position: 		relative;
+			display: 		inline-block;
+			
+			padding: 		0;
+			
+		
+			float:			left;
+			h1.footer--site-footer--title {
+
+				margin: 		-7px 0 0 0;
+					
+				font-size: 		35px;
+				line-height: 	40px;
+
+			}	
+			
+
+			h1, p, a {
+				color: 		$yellow !important;
+			}
+
+		}
+		
+	}
+		
 }

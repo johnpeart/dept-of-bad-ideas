@@ -21,8 +21,6 @@ div#playback {
 	border-top-left-radius: 	20px;
 	border-top-right-radius: 	20px;
 	
-	@include 		box-shadow-3;
-
 	#audioplayer{
 		
 		display: grid;
