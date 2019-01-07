@@ -33,8 +33,7 @@
 			<itunes:category text="Personal Journals" />
 		</itunes:category>
 		<itunes:category text="Government & Organizations" />
-		<itunes:category text="Comedy" />
-
+		
 		<itunes:explicit>no</itunes:explicit>
 
 		{% for episode in site.episodes %}

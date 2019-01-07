@@ -29,10 +29,17 @@ footer#footer--site-footer {
 			
 			position: 		relative;
 			display: 		inline-block;
+
+			@include mobile {
+				max-height: 	40px;
+				margin-right: 	20px;
+			}
 			
-			max-height: 	60px;
-			margin-right: 	20px;
-			
+			@include tablet-up {
+				max-height: 	60px;
+				margin-right: 	20px;
+			}
+					
 			float:			left;
 		}
 		
@@ -42,21 +49,51 @@ footer#footer--site-footer {
 			display: 		inline-block;
 			
 			padding: 		0;
-			
 		
 			float:			left;
-			h1.footer--site-footer--title {
-
-				margin: 		-7px 0 0 0;
-					
-				font-size: 		35px;
-				line-height: 	40px;
-
-			}	
 			
 
 			h1, p, a {
-				color: 		$yellow !important;
+				color: 		$yellow;
+			}
+			
+			h1.footer--site-footer--title {
+				
+				@include mobile {
+					
+					padding: 		0 0 0 0;
+					margin: 		-5px 0 0 0;
+					
+					font-size:		20px;
+					line-height: 	25px;	
+				}
+				
+				@include tablet-up {
+					margin: 		-7px 0 0 0;
+
+					font-size: 		35px;
+					line-height: 	35px;
+				}
+
+			}
+			
+			p.footer--site-footer--author {
+				
+				color: 		$white !important;
+				
+				@include mobile {
+					font-size: 15px;
+					line-height: 15px;
+				}
+				
+				a {
+					color: 	$white !important;
+
+					&:focus,
+					&:hover {
+						color:		$yellow !important;						
+					}
+				}
 			}
 
 		}

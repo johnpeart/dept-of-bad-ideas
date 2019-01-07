@@ -64,9 +64,9 @@ div#playback {
 	    height: 				5px;
 
 	    margin: 				20px 0px 25px auto;
-
-	    border-radius: 			15px;
-		background: 			rgba(0, 0, 0, 0.8);
+	    
+		background: 			$yellow;
+	    border: 				1px solid $black;
 
 	}
 	
@@ -74,12 +74,15 @@ div#playback {
 		position: absolute;
 		display: block;
 
-	    width: 20px;
-	    height: 20px;
-	    border-radius: 50%;
-	    margin-top: -9px;
-	    background: #fff;
+	    width: 				20px;
+	    height: 			20px;
+	    margin-top: 		-9px;
+	    
+	    background: 		$black;
+	    border-radius: 		50%;
+
 	}
+	
 	#start, #end {
 		position: 		absolute;
 		display: 		block;

@@ -4,66 +4,72 @@ layout: default
 
 {% include header.html %}
 
-
 <main id="main-content">
 	
-	<div class="home--intro">
+	<article>
+		
+	<section id="home--jumbotron">
+		
+		<div class="container">
+			
+			<h1 class="home--jumbotron--title">The <strong>Department of Bad Ideas</strong> is a podcast about policy, disconnected from reality.</h1>
+			
+			<p class="home--jumbotron--lead">In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving real world problems in the most impractical and impossible ways.</p>
+
+			
+		</div>
+		
+	</section>
+	
+	<section id="home--subscribe">
+		
+		<div class="container">
+			
+			<div class="home--subscribe--left-column">
+				
+				<h2><a href="{{ site.apple-podcasts-url }}" title="Listen on Apple Podcasts (open Apple Podcasts store)">Listen now</a></h2>						
+
+			</div>
+				
+		</div>
+		
+	</section>
+	
+	<section id="home--about">
 	
 		<div class="container">
 			
 			<article>
 			
-			<p class="first"><strong>The Department of Bad Ideas</strong> is a podcast about policy, disconnected from reality.</p>
-			
-			<p>In each episode, two guests engage in a head-to-head battle of unconventional policy wits. We ask them to solve real problems in the most unsaleable, impractical and impossible ways.</p>
-			
-			<p>There are 3 rounds:</p>
-			
-			<ol>
+				<p>Each episode of the <strong>Department of Bad Ideas</strong> consists of three rounds.</p>
 				
-				<li>
-					<p><strong>Unsaleable Policy Division</strong></p>
-					<p>Our guests are given a real policy problem, and they're asked to come up with a working policy solution. But there's a catch: it has to be completely unsellable. It has to be so good that any minister would recoil in horror at the very idea of fixing that problem with that particular solution.</p>
-					<p>Points are awarded for <strong>presentation</strong>, <strong>practicality</strong> and <strong>unsaleability</strong>.</p>
-				</li>
+				<h2>Unsaleable Policy Division</h2>
+						
+				<p>In round one, guests are given a real policy problem, and they're asked to come up with a working policy solution. But there's a catch: it has to be completely unsellable. It has to be so good that any minister would recoil in horror at the very idea of fixing that problem with that particular solution.</p>
 				
-				<li>
-					<p><strong>Impossible Implementation Unit</strong></p>
-					<p>Next, our guests are given another, real issue to solve; but this time things are different: the solution has to be electoral gold, but entirely impossible to implement.</p>
-					<p>Points are awarded for <strong>presentation</strong>, <strong>practicality</strong> and <strong>saleability</strong>.</p>
-				</li>
+				<p>Points are awarded for <strong>presentation</strong>, <strong>practicality</strong> and <strong>unsaleability</strong>.</p>
+					
+				<h2>Impossible Implementation Unit</h2>
 				
-				<li>
-					<p><strong>In The Thick Of It</strong></p>
-					<p>The final round is a quick fire round, inspired by the hit radio show, <em>Just a Minute</em>. We'll give our guests a policy problem, and they have to describe a solution to it, on the fly, for a minute without repetition, hesitation or deviation. If they falter, their opponent takes over and the clock keeps ticking.</p>
-					<p>Points are awarded to who ever is still talking at the end of the minute.</p>
-				</li>
+				<p>In the second round, our guests are given another real issue to solve, but this time things are different: the solution has to be electoral gold, but entirely impossible to implement.</p>
+						
+				<p>Points are awarded for <strong>presentation</strong>, <strong>practicality</strong> and <strong>saleability</strong>.</p>
+					
+				<h2>In The Thick Of It</h2>
 				
-			</ol>
-			
-			<p><strong>Who will win?</strong> Tune in and find out.</p>
+				<p>The final round is a quick fire round, inspired by the hit radio show, <em>Just a Minute</em>. We'll give our guests a policy problem, and they have to describe a solution to it, on the fly, for a minute without repetition, hesitation or deviation. If they falter, their opponent takes over and the clock keeps ticking.</p>
+				
+				<p>Points are awarded to who ever is still talking at the end of the minute.</p>
+				
+				<p class="home--about--final-para"><strong>Who will win?</strong> Tune in and find out.</p>
 			
 			</article>
 			
 		</div>
 	
-	</div>
-
-	<div class="container home--loop">
-
-		<div class="home--desc">
+	</section>
 	
-			{% include podcast-info.html %}
-	
-		</div>
-	
-		<div class="home--feed">
-			
-			{% include loop.html %}
-	
-		</div>
-	
-	</div>
+	</article>
 	
 </main>
 
