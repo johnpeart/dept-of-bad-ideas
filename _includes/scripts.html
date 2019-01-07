@@ -2,7 +2,9 @@
 <script src="{{ '/jquery.min.js' | prepend: site.js-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}"></script>
 
 <!-- Custom code -->
+{% if page.layout == "episode" %}
 <script src="{{ '/app.js' | prepend: site.js-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}"></script>
+{% endif %}
 
 <!-- Google Analytics -->
 <script src="{{ '/analytics.js' | prepend: site.js-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}"></script>

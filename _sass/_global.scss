@@ -18,11 +18,11 @@
 
 html {
   -ms-overflow-style: scrollbar;
+	background: 		$black;
 }
 
 html,
 body {
-	background: 		$white;
 	color:				$black;
 	
 	font-family: 		$font-family-base;
@@ -53,7 +53,7 @@ header {
 }
 
 main {
-	
+	background:			$white;
 }
 
 .container {
