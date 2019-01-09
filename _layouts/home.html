@@ -25,9 +25,43 @@ layout: default
 		
 		<div class="container">
 			
-			<div class="home--subscribe--left-column">
+			<div id="home--subscribe--left-column">
 				
-				<h2><a href="{{ site.apple-podcasts-url }}" title="Listen on Apple Podcasts (open Apple Podcasts store)">Listen now</a></h2>						
+				<h2>Listen now</h2>
+				
+				<p>You can listen to the <strong>Department of Bad Ideas</strong> <a href="{{ site.url | append: site.baseurl | append: '/episodes' }}" alt="Go to the episodes page">on our website</a>, or <a href="{{ site.apple-podcasts-url }}" title="Listen on Apple Podcasts (open Apple Podcasts store)">subscribe on Apple Podcasts</a>.						
+
+			</div>
+			
+			<div id="home--subscribe--right-column">
+				
+				<h2>Recent episodes</h2>
+				
+				<ul>
+				{% for episode in site.episodes %}
+					<li class="loop--item">
+						<div class="loop--item--content">
+							<h3 class="item--content--title"><a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ episode.title }}</a></h3>
+						</div>
+						<div class="loop--item--links">							
+							<a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Listen</a>
+							<a href="{{ episode.file }}" class="loop--item-link">Download</a>
+						</div>
+					</li>					
+				{% endfor %}
+				</ul>
+				
+				<h2>Recent news</h2>
+				
+				<ul>
+				{% for post in site.posts %}
+					<li class="loop--item">
+						<div class="loop--item--content">
+							<h3 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h3>
+						</div>
+					</li>					
+				{% endfor %}
+				</ul>
 
 			</div>
 				

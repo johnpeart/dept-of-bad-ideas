@@ -50,6 +50,139 @@ section#home--subscribe {
 	background: 		$yellow;
 	color:				$black;
 	
+	div.container {
+		@include clearfix;
+	}
+	
+	div#home--subscribe--left-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: 			left;
+				
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 		40%;
+		}
+		
+		@include desktop {
+			width: 		30%;
+		}
+		
+		a {
+			text-decoration: underline;	
+			
+			&:hover,
+			&:focus {
+				background: 		$black;
+				color: 				$yellow;
+				
+				text-decoration: 	none;
+				outline: 			1px solid $black;
+			}
+		}
+		
+	}
+	
+	div#home--subscribe--right-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				60%;
+			padding-left:		4rem;
+		}
+		
+		@include desktop {
+			width: 				70%;
+			padding-left: 		4rem;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 			0;
+			
+			li.loop--item {
+				
+				@include clearfix;
+				
+				padding: 		0;
+				margin: 		0;
+				
+				border-bottom: 	1px solid $black;
+				
+				&:last-of-type {
+					border-bottom: 	none;
+				}
+				
+				div.loop--item--content {
+					
+					display: 		inline-block;
+					position: 		relative;
+					
+					float:			left;
+					
+					h3.item--content--title {
+						@extend p;
+						padding: 		5px 0;
+						
+						@include mobile {
+							margin: 	0;
+						}
+					}
+				}
+				
+				div.loop--item--links {
+					
+					display: 		inline-block;
+					position: 		relative;
+					
+					float:			right;
+					
+					padding-top: 	1rem;
+					
+					text-align: right;
+					
+					a {
+						@include mobile {
+							display: 		inline-block;
+							
+							font-size: $font-size-base;
+							
+							&:first-of-type {
+								margin-bottom:	5px;
+							}
+						}
+						
+						padding: 		5px 10px;
+						
+						border:			1px solid $black;
+					}
+				}
+			}
+		}
+		
+	}
+	
 }
 
 section#home--about {

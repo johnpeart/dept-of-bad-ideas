@@ -3,6 +3,8 @@ header#site-title {
 	position: 		relative;
 	display: 		block;
 	
+	z-index: 		100000;
+	
 	@include tablet-up {
 		@include supports-sticky;
 	}
@@ -125,10 +127,24 @@ header#site-title {
 					
 				}
 				
-				a.active {
+				a {
+					&:focus,
+					&:hover {
+						background: 		$black;
+						color: 				$yellow;
+						
+						text-decoration: 	none;
+						outline: 			3px solid $black;
+					}
 					
-					text-decoration: 	underline;
-					
+					&.active {
+						text-decoration: 	underline;
+						
+						&:focus,
+						&:hover {
+							text-decoration: 	none;
+						}
+					}
 				}
 							
 			}

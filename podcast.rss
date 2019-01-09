@@ -4,10 +4,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 	<channel>
-		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="{{ site.url | append: site.baseurl | append: '/podcast.rss' }}" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
 		<description>{{ site.description | xml_escape }}</description>
-		<link>{{ site.url }}</link>
+		<link>{{ site.url | append: site.baseurl }}</link>
 		<language>{{ site.lang }}</language>
 		<managingEditor>{{ site.email }} ({{ site.author }})</managingEditor>
 		<webMaster>{{ site.email }} ({{ site.author }})</webMaster>
@@ -15,7 +15,7 @@
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<image>
-			<link>{{ site.url }}</link>
+			<link>{{ site.url | append: site.baseurl }}</link>
 			<url>{{ '/podcast/itunes-3000.png' | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}</url>
 			<title>{{ site.title }}</title>
 		</image>
@@ -40,7 +40,7 @@
 		{% for episode in site.episodes %}
 			<item>
 				<title>{{ episode.title | xml_escape }}</title>
-				<link>{{ site.url }}{{ episode.url }}</link>
+				<link>{{ site.url | append: site.baseurl | append: episode.url }}</link>
 				<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 				<description>{{ episode.excerpt | xml_escape }}</description>
 				<guid isPermaLink="true">{{ site.url | append: site.baseurl | append: episode.url }}</guid>
