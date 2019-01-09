@@ -24,9 +24,6 @@ js-path: "/assets/scripts"
 
 # Artwork
 
-logo-png: "/assets/images/site/logo.png"
-logo-svg: "/assets/images/site/logo.svg"
-
 social-media-image: "/assets/images/site/social-media.png"
 
 touch: "/assets/images/site/touch.png"

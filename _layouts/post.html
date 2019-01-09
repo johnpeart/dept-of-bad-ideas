@@ -7,14 +7,26 @@ layout: default
 <main id="main-content">
 	
 	<div class="container">
+		
+		<section id="post--content">
+			
+			<h1 id="page--content--title">{{ page.title }}</h1>
+
+			<div id="post--content--left-column">
+				<p class="page--item-metadata"><strong>Published</strong> {{ page.date | date: "%d %B %Y" }} </p>
+			</div>
 				
-		<div class="page--post-content">
-			<h2 class="page--post-content--title">{{ page.title }}</h2>
-			{{ content }}
-		</div>
+			<div id="post--content--right-column">
+				{{ content }}
+			</div>
+		
+		</section>
 	
 	</div>
 	
 </main>
 
+{% include podcast-player.html %}
+
 {% include footer.html %}
+

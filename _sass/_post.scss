@@ -1,0 +1,181 @@
+section#post--content {
+	
+	@include clearfix;
+	
+	h1#page--content--title {
+		
+		max-width: 			900px;
+		
+		padding: 			0;
+		margin: 			2rem 0 2rem 0;
+		
+		font-weight: 		600;
+		
+		line-height: 		1.3;
+		font-size: 			$heading1-font-size-base;
+		
+		@include tablet-up {
+			font-size: 		$heading1-font-size-base * 1.5 !important;
+		}
+		
+		strong {
+			color: 			$yellow;
+		}
+		
+	}
+	
+	div#post--content--left-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				40%;
+		}
+		
+		@include desktop {
+			width: 				30%;
+		}
+		
+		
+	}
+
+	div#post--content--right-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				60%;
+		}
+		
+		@include desktop {
+			width: 				70%;
+		}
+		
+		
+	}
+	
+}
+
+
+section#episode--content {
+	
+	@include clearfix;
+	
+	h1#page--content--title {
+		
+		max-width: 			900px;
+		
+		padding: 			0;
+		margin: 			2rem 0 2rem 0;
+		
+		font-weight: 		600;
+		
+		line-height: 		1.3;
+		font-size: 			$heading1-font-size-base;
+		
+		@include tablet-up {
+			font-size: 		$heading1-font-size-base * 1.5 !important;
+		}
+		
+		strong {
+			color: 			$yellow;
+		}
+		
+	}
+	
+	div#episode--content--left-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				40%;
+		}
+		
+		@include desktop {
+			width: 				30%;
+		}
+		
+		a {
+			
+			display: inline-block;
+			
+			margin:			2rem 0 0 0;
+			padding: 		5px 10px;
+			
+			border:			1px solid $black;
+			
+			text-decoration: 	none;
+			
+			&:hover,
+			&:focus {
+				background: 		$black;
+				color: 				$yellow;
+				
+				text-decoration: 	none;
+			}
+			
+		}
+		
+		
+	}
+
+	div#episode--content--right-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				60%;
+		}
+		
+		@include desktop {
+			width: 				70%;
+		}
+		
+		
+	}
+	
+}
