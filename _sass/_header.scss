@@ -80,6 +80,13 @@ header#site-title {
 
 		}
 		
+		a {
+			&:hover h1,
+			&:focus h1 {
+				text-decoration: 		underline;
+			}
+		}
+		
 	}
 	
 	div#header--site-navigation {
