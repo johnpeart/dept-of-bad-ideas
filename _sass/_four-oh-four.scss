@@ -10,7 +10,7 @@ section#four-oh-four--jumbotron {
 		}
 	}
 	
-	h1.home--jumbotron--title {
+	h1.four-oh-four--jumbotron--title {
 		
 		max-width: 			900px;
 		
@@ -32,13 +32,17 @@ section#four-oh-four--jumbotron {
 		
 	}
 	
-	p.home--jumbotron--lead {
+	p.four-oh-four--jumbotron--lead {
 		
 		max-width: 			650px;
 
 		font-size: 		$font-size-base * 1.5;
 		@include tablet-up {
 			font-size: 		$font-size-base * 1.8 !important;
+		}
+		
+		a {
+			color: 		$yellow;
 		}
 			
 	}
