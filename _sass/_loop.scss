@@ -1,0 +1,106 @@
+section#page--content {
+	
+	@include clearfix;
+	
+	h1#page--content--title {
+		
+		max-width: 			900px;
+		
+		padding: 			0;
+		margin: 			0 0 2rem 0;
+		
+		font-weight: 		600;
+		
+		line-height: 		1.3;
+		font-size: 			$heading1-font-size-base;
+		
+		@include tablet-up {
+			font-size: 		$heading1-font-size-base * 1.5 !important;
+		}
+		
+		strong {
+			color: 			$yellow;
+		}
+		
+	}
+	
+	div#page--content--left-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				60%;
+		}
+		
+		@include desktop {
+			width: 				70%;
+		}
+		
+		ul {
+			list-style: none;
+			padding: 			0;
+			
+			li.loop--item {
+				
+				@include clearfix;
+				
+				padding: 		0;
+				margin: 		0;
+				
+				border-bottom: 	1px solid $black;
+				
+				&:last-of-type {
+					border-bottom: 	none;
+				}
+				
+				div.loop--item--content {
+					
+					display: 		inline-block;
+					position: 		relative;
+					
+					float:			left;
+					
+					h3.item--content--title {
+						padding: 		5px 0;
+						
+						@include mobile {
+							margin: 	0;
+						}
+						
+						a {
+							text-decoration:	underline;
+							
+							&:hover,
+							&:focus {
+								background: 		$black;
+								color: 				$yellow;
+								
+								text-decoration: 	none;
+								outline: 			3px solid $black;
+							}
+						}
+						
+					}
+					
+					p.item--content--excerpt {
+						margin-bottom: 2rem;
+					}
+				}
+				
+			}
+		}
+		
+	}
+	
+}
