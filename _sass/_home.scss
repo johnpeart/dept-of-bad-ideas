@@ -148,6 +148,20 @@ section#home--subscribe {
 						@include mobile {
 							margin: 	0;
 						}
+						
+						a {
+							text-decoration:	underline;
+							
+							&:hover,
+							&:focus {
+								background: 		$black;
+								color: 				$yellow;
+								
+								text-decoration: 	none;
+								outline: 			3px solid $black;
+							}
+						}
+						
 					}
 				}
 				
@@ -176,6 +190,17 @@ section#home--subscribe {
 						padding: 		5px 10px;
 						
 						border:			1px solid $black;
+						
+						text-decoration: 	none;
+						
+						&:hover,
+						&:focus {
+							background: 		$black;
+							color: 				$yellow;
+							
+							text-decoration: 	none;
+						}
+						
 					}
 				}
 			}
