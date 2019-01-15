@@ -44,7 +44,7 @@
 				<pubDate>{{ episode.date | date_to_rfc822 }}</pubDate>
 				<description>{{ episode.excerpt | xml_escape }}</description>
 				<guid isPermaLink="true">{{ site.url | append: site.baseurl | append: episode.url }}</guid>
-				<enclosure url="{{ site.url | append: site.baseurl | append: episode.file }}" length="{{ episode.length }}" type="{{ episode.file_type }}"/>
+				<enclosure url="{{ episode.file }}" length="{{ episode.length }}" type="{{ episode.file_type }}"/>
 				<itunes:author>{{ site.author }}</itunes:author>
 				<itunes:subtitle>{{ site.title }}: {{ episode.title }}</itunes:subtitle>
 				<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
