@@ -7,7 +7,7 @@ date: 2019-01-01 21:54:00
 duration: "0:20" # audio length in min
 length: "737,344" # filesize in byte
 
-file: "//episodes.johnpe.art/dept-of-bad-ideas/department-of-bad-ideas-preview.mp3"
+file: "https://s3.eu-west-2.amazonaws.com/episodes.johnpe.art/dept-of-bad-ideas/department-of-bad-ideas-preview.mp3"
 file_type: "audio/mp3" # audio/x-m4a, audio/mpeg, video/quicktime, video/mp4, video/x-m4v, application/pdf, and document/x-epub
 
 excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected from reality. Listen to this preview for what to expect."
