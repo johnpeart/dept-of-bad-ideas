@@ -4,10 +4,10 @@ layout: episode
 title: "Preview: “Department of Bad Ideas”"
 date: 2019-01-01 21:54:00
 
-duration: "0:14" # audio length in min
-length: "520,768" # filesize in byte
+duration: "0:20" # audio length in min
+length: "737,344" # filesize in byte
 
-file: "/assets/audio/DeptBadIdeas-Intro-Full.mp3"
+file: "https://episodes.johnpe.art/dept-of-bad-ideas/department-of-bad-ideas-preview.mp3"
 file_type: "audio/mp3" # audio/x-m4a, audio/mpeg, video/quicktime, video/mp4, video/x-m4v, application/pdf, and document/x-epub
 
 excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected from reality. Listen to this preview for what to expect."
