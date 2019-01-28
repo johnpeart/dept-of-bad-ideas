@@ -54,8 +54,8 @@
 	<meta property="og:site_name" content="{{ site.title }}" />
 
 	<!-- Touch Icons -->
-	<link rel="icon" href="{{ site.touch | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="apple-touch-icon" href="{{ site.touch | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="icon" href="{{ site.touch | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="apple-touch-icon" href="{{ site.touch | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- Pinned Site -->
 	<link rel="mask-icon" href="{{ site.pinned | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}" color="{{ site.pinned-colour }}">
