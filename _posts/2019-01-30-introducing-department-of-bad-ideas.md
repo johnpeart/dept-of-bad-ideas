@@ -9,7 +9,7 @@ excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected fr
 
 If you've found your way to this blogpost, you've stumbled upon a brand new podcast. It's a podcast about public policy as game show, and it’s called the **Department of Bad Ideas**. Welcome! 
 
-I'm the creator and soon-to-be host of this peculiar endevour -- John Peart -- and I'm here to tell you a bit about what you can expect on this auditory rollercoaster into the world of public policy. 
+I'm the creator and soon-to-be host of this peculiar endevour -- [John Peart](https://johnpe.art) -- and I'm here to tell you a bit about what you can expect on this auditory rollercoaster into the world of public policy. 
 
 ## In a nutshell 
 
@@ -17,7 +17,7 @@ The Department of Bad Ideas is a podcast about public policy, but disconnected f
 
 People working in public policy -- like me and some of the guests you'll hear from -- usually have to solve complex problems within ever tighter constraints. This podcast is about exploring what happens when you take most of the constraints away and ask people to reach for the most outrageous ideas they can think of. 
 
-In each episode, two guests engage in a battle of policy ideation and wits. Their task is to come up with the best-worst ideas possible. They have to be impractical, unpalatable or entirely nonsensical.
+In each episode, two guests will engage in a battle of policy ideation and wits. Their task is to come up with the best-worst ideas possible. They have to be impractical, unpalatable or entirely nonsensical.
 
 ## What to expect
 
@@ -35,6 +35,14 @@ After the three rounds are over, we’ll total up the points. Points mean absolu
 
 ## Don't take it too seriously 
 
-One thing you should know is that whilst this is a gameshow our guests will be taking deadly seriously, you shouldn't take it seriously at all! Believe nothing you hear, as we're all just making it up as we go along. 
+One thing you should know is that whilst this is a gameshow and our guests will be taking it deadly seriously, you shouldn't take it seriously at all! Believe nothing you hear, as we’ll all just be making it up as we go along. 
 
 The topics discussed are entirely random, so if there's any correlation or similarity with real world events, it's either  entirely coincidental or a product of your own imagination. 
+
+## What comes next
+
+Recording of the podcast is going to start soon. I’m aiming to record a batch of episodes and then release them s a series later in 2019. 
+
+You’ll be able to download the podcast from the Apple Podcasts app, [subscribe directly to the feed](https://podcast.johnpe.art/podcast.rss), or just [listen to episodes on this website](https://podcast.johnpe.art/episodes/).
+
+If you’d like to be a guest on the podcast, there’s still time!  More details can be found in this [blog post]().
