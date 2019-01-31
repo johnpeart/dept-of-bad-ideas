@@ -135,6 +135,9 @@ header#site-title {
 				}
 				
 				a {
+				
+					text-decoration: none !important;
+					
 					&:focus,
 					&:hover {
 						background: 		$black;
