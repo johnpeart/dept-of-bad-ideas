@@ -42,4 +42,4 @@ Recording of the podcast is going to start soon. I’m aiming to record a batch 
 
 You’ll be able to download the podcast from the Apple Podcasts app, [subscribe directly to the feed](https://podcast.johnpe.art/podcast.rss), or just [listen to episodes on this website](https://podcast.johnpe.art/episodes/).
 
-If you’d like to be a guest on the podcast, there’s still time!  More details can be found in this [blog post]().
+If you’d like to be a guest on the podcast, there’s still time!  More details can be found in this [blog post](/2019/01/30/be-our-guest/).
