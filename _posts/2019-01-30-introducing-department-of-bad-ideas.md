@@ -1,9 +1,6 @@
 ---
 layout: post
-
 title: "What’s all this about then?"
-date: 2019-01-30
-
 excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected from reality. Find out more about what's in store, and how you can be in an episode."
 ---
 
