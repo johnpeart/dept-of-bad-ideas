@@ -242,3 +242,83 @@ section#home--about {
 	}
 	
 }
+
+section#home--contact {
+	
+	background: 		$yellow;
+	color:				$black;
+	
+	div.container {
+		@include clearfix;
+		
+		padding-bottom: 	5rem;
+	}
+	
+	div#home--contact--left-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: 			left;
+				
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 		50%;
+			padding-right: 		2rem;
+		}
+		
+		@include desktop {
+			width: 		50%;
+			padding-right: 		2rem;
+		}
+		
+		a {
+			text-decoration: underline;	
+			
+			&:hover,
+			&:focus {
+				background: 		$black;
+				color: 				$yellow;
+				
+				text-decoration: 	none;
+				outline: 			2px solid $black;
+			}
+		}
+		
+	}
+	
+	div#home--contact--right-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: left;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				50%;
+			padding-left: 		2rem;
+		}
+		
+		@include desktop {
+			width: 				50%;
+			padding-left: 		2rem;
+		}
+				
+	}
+	
+}
