@@ -72,10 +72,12 @@ section#post--content {
 		
 		@include tablet-landscape {
 			width: 				60%;
+			padding-left: 		3rem;
 		}
 		
 		@include desktop {
 			width: 				70%;
+			padding-left: 		3rem;
 		}
 		
 		
