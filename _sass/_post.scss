@@ -15,7 +15,7 @@ section#post--content {
 		font-size: 			$heading1-font-size-base;
 		
 		@include tablet-up {
-			font-size: 		$heading1-font-size-base * 1.5 !important;
+			font-size: 		$heading1-font-size-base * 2 !important;
 		}
 		
 		strong {
@@ -30,6 +30,10 @@ section#post--content {
 		position: 		relative;
 		
 		float: left;
+		
+		margin-top: 	15px;
+		padding-top: 	15px;
+		border-top: 	3px solid $yellow;
 		
 		@include mobile {
 			width: 		100%;
@@ -103,7 +107,7 @@ section#episode--content {
 		font-size: 			$heading1-font-size-base;
 		
 		@include tablet-up {
-			font-size: 		$heading1-font-size-base * 1.5 !important;
+			font-size: 		$heading1-font-size-base * 1.75 !important;
 		}
 		
 		strong {
