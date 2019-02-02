@@ -47,6 +47,11 @@ section#post--content {
 			width: 				30%;
 		}
 		
+		p.page--item-metadata {
+			strong {
+				margin-right: 15px;
+			}
+		}
 		
 	}
 
@@ -126,6 +131,12 @@ section#episode--content {
 		
 		@include desktop {
 			width: 				30%;
+		}
+		
+		p.page--item-metadata {
+			strong {
+				margin-right: 15px;
+			}
 		}
 		
 		a {
