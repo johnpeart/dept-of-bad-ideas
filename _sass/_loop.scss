@@ -40,10 +40,14 @@ section#page--content {
 		
 		@include tablet-landscape {
 			width: 				60%;
+			
+			padding-right: 		4rem;
 		}
 		
 		@include desktop {
 			width: 				70%;
+			
+			padding-right: 		6rem;
 		}
 		
 		ul {
@@ -106,6 +110,54 @@ section#page--content {
 			}
 		}
 		
+	}
+
+	div#page--content--right-column {
+		
+		display: 		block;
+		position: 		relative;
+		
+		float: right;
+		
+		@include mobile {
+			width: 		100%;
+		}
+		
+		@include tablet {
+			width: 		100%;
+		}
+		
+		@include tablet-landscape {
+			width: 				40%;
+		}
+		
+		@include desktop {
+			width: 				30%;
+		}
+		
+		aside {
+			
+			display: block;
+			
+			margin-top:			20px;
+			
+			h3 {
+				display: inline-block;
+				
+				margin-top: 50px;
+				
+				&:first-of-type {
+					margin-top: 20px;
+				}
+				
+				padding: 		5px 10px 10px 10px !important;
+				
+				background:		$yellow !important;
+				color:			$black !important;
+			}
+			
+		}
+				
 	}
 	
 }
