@@ -9,7 +9,7 @@ excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected fr
 
 If you've found your way to this blog post, you've stumbled upon a brand new podcast. It's a podcast about public policy as game show, and it’s called the **Department of Bad Ideas**. Welcome! 
 
-I'm the creator and soon-to-be host of this peculiar endevour -- [John Peart](https://johnpe.art) -- and I'm here to tell you a bit about what you can expect on this auditory rollercoaster into the world of public policy. 
+I'm the creator and soon-to-be host of this peculiar endevour and I'm here to tell you a bit about what you can expect on this auditory rollercoaster into the world of public policy. 
 
 ## In a nutshell 
 
