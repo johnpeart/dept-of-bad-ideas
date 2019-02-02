@@ -6,17 +6,17 @@ excerpt: "If you can come up with bonkers solutions to silly problems, then you 
 
 At it's most simple, the Department of Bad Ideas is a gameshow. That means that, for every episode, we need contestants. 
 
-If you think you are great at coming up with bonkers solutions to ridiculous and complex problemS, then now is your chance to prove it. That's right; you can be a contestant on this very odd pod. 
+If you think you are great at coming up with bonkers solutions to ridiculous and complex problems, then now is your chance to prove it. That's right; you can be a contestant on this very odd pod. 
 
 If you want to be on the Department of Bad Ideas, all you have to do is get in touch. You can do that via Twitter -- [@PodofBadldeas](https:/www.twitter.com/podofbadideas) -- or via email at [podcast&#64;johnpe.art](mailto:podcast&#64;johnpe.art). 
 
-If there's a slot available on an upcoming episode, and we think we can match you with a suitable opponent, then you're hired! 
+If there's a slot available on an upcoming episode, and I think I can match you with a suitable opponent, then you're hired! 
 
 ## What you need to know
 
 **You’ll need to be available for around 1 to 2 hours to record the episode.** This might be after work on a weekday, or on a weekend. We can schedule around your availability and mine.
 
-**As a contestant on the podcast, you’ll need to do a little bit of homework in advance.** For both of our first two rounds, you’ll need to prepare a 5 minute pitch that solves a problem we will give you ahead of the recording. You can present however you like, but remember it’s an audio podcast. There’s nothing to prepare for the third and final round. You can [find more information about the format](/2019/01/30/introducing-department-of-bad-ideas/) of the show on our blog.
+**As a contestant on the podcast, you’ll need to do a little bit of homework in advance.** For both of our first two rounds, you’ll need to prepare a 5 minute pitch that solves a problem we will give you ahead of the recording. You can present however you like, but remember it’s an audio podcast. There’s nothing to prepare for the third and final round. You can [find more information about the format of the show in this blog post](/2019/01/30/introducing-department-of-bad-ideas/).
 
 **Appearing on the show is unpaid and voluntary**. I’m not making any money from producing this podcast at all, and so I can’t pay you either. This is just for fun. If that changes, then I’ll agree a fair amount for your time with you.
 
