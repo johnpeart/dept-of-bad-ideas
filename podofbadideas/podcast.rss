@@ -46,7 +46,7 @@
 				<guid isPermaLink="true">{{ site.url | append: site.baseurl | append: episode.url }}</guid>
 				<enclosure url="{{ episode.file }}" length="{{ episode.length }}" type="{{ episode.file_type }}"/>
 				<itunes:author>{{ site.author }}</itunes:author>
-				<itunes:subtitle>{{ episode.subtitle }}</itunes:subtitle>
+				<itunes:subtitle>{{ episode.subtitle | xml_escape }}</itunes:subtitle>
 				<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
 				<content:encoded>{{ episode.content | markdownify }}</content:encoded>
 				<itunes:duration>{{ episode.duration }}</itunes:duration>
