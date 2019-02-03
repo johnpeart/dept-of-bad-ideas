@@ -23,11 +23,11 @@
 	</title>
 
 	<meta name="application-name" content="{% if page.layout != 'home' %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta name="description" content="{{ site.summary | strip_html }}" />
+	<meta name="description" content="{{ site.description | strip_html }}" />
 
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="{% if page.layout != 'home' %}{{ page.title }} &middot; {{ site.title }}{% else %}{{ site.title }}{% endif %}">
-	<meta itemprop="description" content="{{ site.summary | strip_html }}">
+	<meta itemprop="description" content="{{ site.description | strip_html }}">
 	<meta itemprop="image" content="{{ site.social-media | prepend: site.image-path | site.asset-path | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- Twitter Card data -->
@@ -35,7 +35,7 @@
 	<meta name="twitter:site" 			content="@{{ site.twitter-username }}">
 	<meta name="twitter:creator" 		content="@{{ site.twitter-username }}">
 	<meta name="twitter:title" 			content="{% if page.layout != 'home' %}{{ page.title }} • {% endif %}{{ site.title }}">
-	<meta name="twitter:description" 	content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.summary | strip_html }}{% endif %}">
+	<meta name="twitter:description" 	content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}">
 	<meta name="twitter:image" 			content="{% if page.image %}{{ page.image | prepend: site.post-images-path | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.social-media | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}">
 	<meta name="twitter:image:alt" 		content="{% if page.image-description %}{{ page.image-description | strip_html }}{% endif %}">
 
@@ -47,7 +47,7 @@
 	<meta property="og:type" 			content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
 	<meta property="og:rich_attachment" content="true" />
 	<meta property="og:title" 			content="{% if page.layout != 'home' %}{{ page.title }} • {% endif %}{{ site.title }}" />
-	<meta property="og:description" 	content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.summary | strip_html }}{% endif %}" />
+	<meta property="og:description" 	content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description | strip_html }}{% endif %}" />
 	<meta property="og:image" 			content="{% if page.image %}{{ page.image | prepend: site.post-images-path | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.social-media | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
 	<meta property="article:author" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
 	<meta property="article:publisher" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
