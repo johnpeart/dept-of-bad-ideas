@@ -48,7 +48,6 @@
 				<itunes:author>{{ site.author }}</itunes:author>
 				<itunes:subtitle>{{ episode.subtitle | xml_escape }}</itunes:subtitle>
 				<itunes:summary>{{ episode.summary | xml_escape }}</itunes:summary>
-				<content:encoded>{{ episode.content | markdownify }}</content:encoded>
 				<itunes:duration>{{ episode.duration }}</itunes:duration>
 				<itunes:keywords>{{ episode.keywords }}</itunes:keywords>
 				{% if episode.image %}
