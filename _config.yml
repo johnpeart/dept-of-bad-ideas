@@ -10,9 +10,28 @@ url: "https://podcast.johnpe.art"
 # Podcast Feed Settings
 
 email:          "podcast@johnpe.art"
-summary: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving public policy problems in the most impractical, unpalatable and impossible ways."
 subtitle: 		"The Department of Bad Ideas is a podcast and gameshow about policy, disconnected from reality."
 summary: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving public policy problems in the most impractical, unpalatable and impossible ways."
+description: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. 
+
+In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving public policy problems in the most impractical, unpalatable and impossible ways.
+
+Each episode of the Department of Bad Ideas consists of three rounds.
+
+1. In the first round, our guests have 5 minutes to pitch the solution to a policy problem they're given ahead of time. The problem could be anything from the ridiculous to the real: like preparing for an alien invasion, or solving a shortage of teachers in schools. Their solution has to be entirely impossible to implement, but so attractive that everyone would want to do it that way.
+
+Points are awarded for originality, presentation, practicality and political attractiveness.
+
+2. In the second round, our guests are given another policy problem ahead of time, and they'll have another 5 minutes each to pitch their solution. This time the idea has to be brilliantly practical, but political kryptonite. It has to be so unpalatable that any senior official or minister would recoil in horror at the very idea of fixing that problem with that particular solution.
+
+Points are awarded for originality, presentation, practicality and political attractiveness.
+
+3. The final round is different. Instead of prepreared pitches to known problems, our guests will face off in a quick fire round inspired by the hit radio show, Just a Minute. We’ll give our guests a series of policy problems, and they have to describe a solution to it on the fly for a minute, without repetition, hesitation or deviation. If they falter, their opponent takes over and the clock keeps ticking.
+
+Points are still awarded for originality, presentation, practicality and political attractiveness, but bonus points are awarded to whomever is speaking at the end of each minute.
+
+Who will win? Tune in and find out."
+
 lang:           "en"
 launch_date:	2019-01-01
 copyright:      "&#x2117; &amp; &#xA9; 2019"
