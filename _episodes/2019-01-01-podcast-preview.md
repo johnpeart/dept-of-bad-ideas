@@ -5,7 +5,7 @@ title: "Coming soon: “Department of Bad Ideas”"
 date: 2019-02-02 21:54:00
 
 duration: "0:42" # audio length in min
-length: "1,556,992" # filesize in byte
+length: "1556992" # filesize in byte
 
 file: "https://podcast.johnpe.art/assets/audio/DepartmentOfBadIdeas.mp3"
 file_type: "audio/mp3" # audio/x-m4a, audio/mpeg, video/quicktime, video/mp4, video/x-m4v, application/pdf, and document/x-epub
