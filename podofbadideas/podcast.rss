@@ -19,9 +19,9 @@
 			<url>{{ '/podcast/itunes-3000.png' | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}</url>
 			<title>{{ site.title }}</title>
 		</image>
-		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
+		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
-		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
+		<itunes:summary>{{ site.summary | xml_escape }}</itunes:summary>
 		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
 		<itunes:owner>
 			<itunes:name>{{ site.author }}</itunes:name>

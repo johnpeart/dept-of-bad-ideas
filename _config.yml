@@ -9,8 +9,10 @@ url: "https://podcast.johnpe.art"
 
 # Podcast Feed Settings
 
-email:          "podcasts@johnpe.art"
-description: 	"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving real world problems in the most impractical, unpalatable and impossible ways."
+email:          "podcast@johnpe.art"
+summary: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving public policy problems in the most impractical, unpalatable and impossible ways."
+subtitle: 		"The Department of Bad Ideas is a podcast and gameshow about policy, disconnected from reality."
+summary: 		"The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, two guests engage in a head-to-head battle of unconventional policy wits; solving public policy problems in the most impractical, unpalatable and impossible ways."
 lang:           "en"
 launch_date:	2019-01-01
 copyright:      "&#x2117; &amp; &#xA9; 2019"
