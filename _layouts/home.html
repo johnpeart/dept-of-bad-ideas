@@ -38,7 +38,8 @@ layout: default
 				<h2>Recent episodes</h2>
 				
 				<ul>
-				{% for episode in site.episodes limit: 5 %}
+				{% assign episodes = site.episodes | sort_by: date | reverse %}
+				{% for episode in episodes limit: 5 %}
 					<li class="loop--item">
 						<div class="loop--item--content">
 							<h3 class="item--content--title"><a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ episode.title }}</a></h3>
