@@ -2,7 +2,7 @@
 layout: 		episode
 
 title: 			"Coming soon: “Department of Bad Ideas”"
-date: 			2019-02-02 21:54:00
+date: 			2019-02-02 00:00:00
 
 subtitle: 		"The Department of Bad Ideas is a new podcast about policy, disconnected from reality. Coming soon."
 
