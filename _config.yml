@@ -48,7 +48,7 @@ js-path: "/assets/scripts"
 
 # Artwork
 
-social-media-image: "/assets/images/site/social-media.png"
+social-media-image: "/social-media.png"
 
 touch: "/assets/images/site/touch.png"
 pinned: "/assets/images/site/pinned.svg"
