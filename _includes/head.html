@@ -40,17 +40,12 @@
 	<meta name="twitter:image:alt" 		content="{% if page.image-description %}{{ page.image-description | strip_html }}{% endif %}">
 
 	<!-- Open Graph data -->
-	<meta property="fb:app_id" 			content="{{ site.facebook-app-id }}" />
-	<meta property="fb:profile_id" 		content="{{ site.facebook-profile-id }}" />
-	<meta property="fb:admins" 			content="{{ site.facebook-profile-id }}" />
 	<meta property="og:url" 			content="{{ page.url | prepend: site.baseurl | prepend: site.url }}"  />
 	<meta property="og:type" 			content="{% if page.layout == 'post' %}article{% else %}website{% endif %}" />
 	<meta property="og:rich_attachment" content="true" />
 	<meta property="og:title" 			content="{% if page.layout != 'home' %}{{ page.title }} • {% endif %}{{ site.title }}" />
 	<meta property="og:description" 	content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.summary | strip_html }}{% endif %}" />
 	<meta property="og:image" 			content="{% if page.image %}{{ page.image | prepend: site.post-images-path | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.social-media-image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
-	<meta property="article:author" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
-	<meta property="article:publisher" content="{{ site.facebook-slug | prepend: 'https://www.facebook.com/' }}" />
 	<meta property="og:site_name" content="{{ site.title }}" />
 
 	<!-- Touch Icons -->
