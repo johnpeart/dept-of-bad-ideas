@@ -16,9 +16,9 @@ In this short preview episode, we explain what you can expect when the Departmen
 
 - 00:40 — Hello there
 
-- 03:33 – Become a contestant
+- 03:33 — Become a contestant
 
-- 04:09 – Closing music"
+- 04:09 — Closing music"
 
 season:			# Enter a number if applicable
 episode:		# Enter a number if applicable
