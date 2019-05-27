@@ -32,6 +32,11 @@ Points are still awarded for originality, presentation, practicality and politic
 
 Who will win? Tune in and find out."
 
+keywords:       "comedy, personal blog, government, politics, bad ideas, podofbadideas, department of bad ideas, dept of bad ideas"
+
+explicit:       "no"
+type:           "serial" # 'serial' or 'episodic'
+
 lang:           "en"
 launch_date:	2019-01-01
 copyright:      "&#x2117; &amp; &#xA9; 2019"
@@ -48,6 +53,7 @@ js-path: "/assets/scripts"
 
 # Artwork
 
+podcast-artwork: "/podcast/itunes-3000.png"
 social-media-image: "/site/social-media.png"
 
 touch: "/assets/images/site/touch.png"
