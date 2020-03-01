@@ -14,10 +14,13 @@ a {
 	
 	&:hover,
 	&:focus {
+		background: 			$link-hover-background;
 		color: 					$link-hover-color;
 		text-decoration: 		$link-text-decoration-hover;
 		text-decoration-skip: 	ink;
-		text-decoration-skip-ink: auto;
+		text-decoration-skip-ink: auto;		
+		text-decoration: 	none;
+		outline: 			2px solid $black;
 	}
 	
 }

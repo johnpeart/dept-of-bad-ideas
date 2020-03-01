@@ -2,6 +2,12 @@ div#playback {
 	
 	display: 		block;
 	position:		relative;
+
+	@include tablet-up {
+		@include supports-sticky;
+		top:		auto;
+		bottom: 	0;
+	}
 	
 	top:			auto;
 	left:			0;

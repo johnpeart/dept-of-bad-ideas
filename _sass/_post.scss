@@ -58,6 +58,17 @@ section#post--content {
 			strong {
 				margin-right: 15px;
 			}
+
+			.page--item-metadata--type {
+				float: left;
+			}
+
+			.page--item-metadata--content {
+				float: right;
+			}
+
+			@include clearfix;
+
 		}
 		
 	}

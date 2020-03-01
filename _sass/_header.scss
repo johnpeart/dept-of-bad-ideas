@@ -5,10 +5,6 @@ header#site-title {
 	
 	z-index: 		100000;
 	
-	@include tablet-up {
-		@include supports-sticky;
-	}
-	
 	min-height: 	100px;
 	width: 			100%;
 	

@@ -13,9 +13,9 @@ layout: default
 			<h1 id="page--content--title">{{ page.title }}</h1>
 
 			<div id="post--content--left-column">
-				<p class="page--item-metadata"><strong>Published</strong> {{ page.date | date: "%d %B %Y" }} </p>
-				<p class="page--item-metadata"><strong>Written by</strong> 
-		{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</p>
+				<p class="page--item-metadata"><strong class="page--item-metadata--type">Published</strong> <span class="page--item-metadata--content">{{ page.date | date: "%d %b %Y" }} </p>
+				<p class="page--item-metadata"><strong class="page--item-metadata--type">Written by</strong> 
+		<span class="page--item-metadata--content">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span></p>
 			</div>
 				
 			<div id="post--content--right-column">
