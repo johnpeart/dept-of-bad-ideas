@@ -15,7 +15,13 @@ header#site-title {
 	background:		$yellow;
 	
 	div.container {
-		@include 	clearfix;		
+		@include 	clearfix;	
+		
+		@include mobile {
+			padding-top: 30px;
+			padding-bottom: 0px;
+		}
+		
 	}
 	
 	div#header--site-logo {
@@ -92,6 +98,10 @@ header#site-title {
 	div#header--site-navigation {
 		
 		position: 		relative;
+
+		@include mobile {
+			display: none;
+		}
 		
 		@include tablet-up {
 			display: 		inline-block;
