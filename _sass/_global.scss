@@ -56,22 +56,6 @@ main {
 	background:			$white;
 }
 
-.container {
-	@include mobile {
-		padding: 				4rem 2rem;
-	}
-	@include tablet {
-		padding: 				4rem 4rem;
-	}
-	@include tablet-landscape {
-		padding: 				4rem 8rem;
-	}
-	@include desktop {
-		padding: 				4rem 12rem;
-	}
-	margin: 				0rem;
-}
-
 footer {
 	
 }

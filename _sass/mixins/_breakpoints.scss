@@ -2,66 +2,227 @@
 
 // Breakpoints
 
+// ORIENTATION
+
+@mixin xs($orientation) {
+
+	@if $orientation == 'portrait' {
+
+		@media 	only screen  
+				and (orientation: portrait) 
+				and (max-width: $sm - 1px) {
+
+					@content;
+
+				}
+
+	} 
+	
+	@else if $orientation == 'landscape' {
+
+		@media 	only screen  
+				and (orientation: landscape) 
+				and (max-width: $sm - 1px) {
+
+					@content;
+					
+				}
+
+	}
+
+}
+
+@mixin sm($orientation) {
+
+	@if $orientation == 'portrait' {
+
+		@media 	only screen  
+				and (orientation: portrait) 
+				and (min-width: $sm) 
+				and (max-width: $md - 1px) {
+
+					@content;
+
+				}
+
+	} 
+	
+	@else if $orientation == 'landscape' {
+
+		@media 	only screen  
+				and (orientation: landscape) 
+				and (min-width: $sm) 
+				and (max-width: $md - 1px) {
+
+					@content;
+					
+				}
+
+	}
+
+}
+
+@mixin md($orientation) {
+
+	@if $orientation == 'portrait' {
+
+		@media 	only screen  
+				and (orientation: portrait) 
+				and (min-width: $md) 
+				and (max-width: $lg - 1px) {
+
+					@content;
+
+				}
+
+	} 
+	
+	@else if $orientation == 'landscape' {
+
+		@media 	only screen  
+				and (orientation: landscape) 
+				and (min-width: $md) 
+				and (max-width: $lg - 1px) {
+
+					@content;
+					
+				}
+
+	}
+
+}
+
+@mixin lg($orientation) {
+
+	@if $orientation == 'portrait' {
+
+		@media 	only screen  
+				and (orientation: portrait) 
+				and (min-width: $lg) 
+				and (max-width: $xl - 1px) {
+
+					@content;
+
+				}
+
+	} 
+	
+	@else if $orientation == 'landscape' {
+
+		@media 	only screen  
+				and (orientation: landscape) 
+				and (min-width: $lg) 
+				and (max-width: $xl - 1px) {
+
+					@content;
+					
+				}
+
+	}
+
+}
+
+@mixin xl($orientation) {
+
+	@if $orientation == 'portrait' {
+
+		@media 	only screen  
+				and (orientation: portrait) 
+				and (min-width: $xl) {
+
+					@content;
+
+				}
+
+	} 
+	
+	@else if $orientation == 'landscape' {
+
+		@media 	only screen  
+				and (orientation: landscape) 
+				and (min-width: $xl) {
+
+					@content;
+					
+				}
+
+	}
+
+}
 
 // BREAKPOINT ONLY 
 
-@mixin mobile {
+@mixin sm {
 	@media 	only screen 
-			and (max-width: $tablet - 1px) {
+			and (max-width: $sm - 1px) {
 				@content;
 			}
 }
 
-@mixin tablet {
+@mixin md {
 	@media 	only screen 
-			and (min-width: $tablet)
-			and (max-width: $desktop - 1px) {
+			and (min-width: $sm)
+			and (max-width: $md - 1px) {
 				@content;
 			}
 }
 
-@mixin tablet-landscape {
+@mixin lg {
 	@media 	only screen 
-			and (min-width: $tablet-landscape)
-			and (max-width: $desktop - 1px) {
+			and (min-width: $md)
+			and (max-width: $lg - 1px) {
 				@content;
 			}
 }
 
 
-@mixin desktop {
+@mixin xl {
 	@media 	only screen 
-			and (min-width: $desktop) {
+			and (min-width: $xl) {
 				@content;
 			}
 }
 
 // AND UP
 
-@mixin mobile-up {
+@mixin sm-up {
 	@media 	only screen 
-			and (min-width: $mobile) {
+			and (min-width: $sm) {
 				@content;
 			}
 }
 
-@mixin tablet-up {
+@mixin md-up {
 	@media 	only screen 
-			and (min-width: $tablet) {
+			and (min-width: $md) {
 				@content;
 			}
 }
 
-@mixin tablet-down {
+@mixin md-down {
 	@media 	only screen 
-			and (max-width: $desktop - 1px) {
+			and (max-width: $md - 1px) {
 				@content;
 			}
 }
 
-@mixin desktop-up {
+@mixin lg-up {
 	@media 	only screen 
-			and (min-width: $desktop) {
+			and (min-width: $lg) {
+				@content;
+			}
+}
+
+@mixin lg-down {
+	@media 	only screen 
+			and (max-width: $lg - 1px) {
+				@content;
+			}
+}
+
+@mixin xl-down {
+	@media 	only screen 
+			and (max-width: $xl - 1px) {
 				@content;
 			}
 }
