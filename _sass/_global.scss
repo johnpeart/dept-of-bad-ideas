@@ -46,16 +46,10 @@ body {
 		padding-right: unquote('max(0px, env(safe-area-inset-right))');
 	}
 
-}
+	@include clearfix;
 
-header {
-	
 }
 
 main {
-	background:			$white;
-}
-
-footer {
-	
+	background: $white;
 }

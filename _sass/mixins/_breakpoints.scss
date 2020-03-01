@@ -192,6 +192,13 @@
 			}
 }
 
+@mixin sm-down {
+	@media 	only screen 
+			and (max-width: $md - 1px) {
+				@content;
+			}
+}
+
 @mixin md-up {
 	@media 	only screen 
 			and (min-width: $md) {
@@ -201,7 +208,7 @@
 
 @mixin md-down {
 	@media 	only screen 
-			and (max-width: $md - 1px) {
+			and (max-width: $lg - 1px) {
 				@content;
 			}
 }
@@ -214,13 +221,6 @@
 }
 
 @mixin lg-down {
-	@media 	only screen 
-			and (max-width: $lg - 1px) {
-				@content;
-			}
-}
-
-@mixin xl-down {
 	@media 	only screen 
 			and (max-width: $xl - 1px) {
 				@content;

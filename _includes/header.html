@@ -1,34 +1,30 @@
 <header id="site-title">
-	
-	<div class="container">
-	
-		<div id="header--site-logo">
-			
-			<a href="{{ site.url | append: site.baseurl }}"><img class="header--site-logo--logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}" alt="Department of Bad Ideas logo">
-			
-			<h1 class="header--site-logo--title"><span class="header--site-title--newline">Department </span><span class="header--site-title--newline">of Bad Ideas</span></h1></a>
-					
-		</div>
 		
-		<div id="header--site-navigation">
-			
-			<ul class="header--site-navigation--menu">
-				<li class="header--site-navigation--menu-item">
-					{% if page.layout == "home" %}
-					<a href="{{ site.url | append: site.baseurl }}" class="active">Home</a>
-					{% else %}
-					<a href="{{ site.url | append: site.baseurl }}">Home</a>
-					{%endif%}
-				</li>
-				{% for item in site.data.header--site-navigation--items %}
-				<li class="header--site-navigation--menu-item">
-					<a href="{{ item.url }}" {% if page.url contains item.url %}class="active"{% endif %}>{{ item.title }}</a>
-				</li>
-				{% endfor %}
-			</ul>
-			
-		</div>
-	
+	<div id="header--site-logo">
+		
+		<a href="{{ site.url | append: site.baseurl }}"><img class="header--site-logo--logo" src="{{ site.url | append: site.baseurl | append: '/assets/images/site/header-logo.svg'}}" alt="Department of Bad Ideas logo">
+		
+		<h1 class="header--site-logo--title"><span class="header--site-title--newline">Department </span><span class="header--site-title--newline">of Bad Ideas</span></h1></a>
+				
 	</div>
+	
+	<!-- div id="header--site-navigation">
+		
+		<ul class="header--site-navigation--menu">
+			<li class="header--site-navigation--menu-item">
+				{% if page.layout == "home" %}
+				<a href="{{ site.url | append: site.baseurl }}" class="active">Home</a>
+				{% else %}
+				<a href="{{ site.url | append: site.baseurl }}">Home</a>
+				{%endif%}
+			</li>
+			{% for item in site.data.header--site-navigation--items %}
+			<li class="header--site-navigation--menu-item">
+				<a href="{{ item.url }}" {% if page.url contains item.url %}class="active"{% endif %}>{{ item.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+		
+	</div -->
 	
 </header>

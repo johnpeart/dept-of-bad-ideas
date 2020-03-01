@@ -1,0 +1,112 @@
+footer#footer--site-footer {
+
+    display: block;
+    position: static;
+
+    top: auto;
+    bottom: 0;
+	
+	background:			$black;
+	color: 				$yellow !important;
+	
+	min-height: 		100px;
+	width: 				100%;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+		
+	div.container {
+		@include 	clearfix;		
+	}
+	
+	div#footer--site-logo {
+		
+		position: 	relative;		
+		display: 	inline-block;
+
+		@include sm-down {
+			margin-bottom: 	20px;
+		}
+
+		@include md-up {			
+			float:		left;
+		}
+
+		@include 	clearfix;		
+		
+		img.footer--site-logo--logo {
+			
+			position: 		relative;
+			display: 		inline-block;
+
+			@include sm-down {
+				max-height: 	40px;
+				margin-right: 	20px;
+			}
+			
+			@include md-up {
+				max-height: 	60px;
+				margin-right: 	20px;
+			}
+					
+			float:			left;
+		}
+		
+		div.footer--site-logo--text {
+
+			position: 		relative;
+			display: 		inline-block;
+			
+			padding: 		0;
+		
+			float:			left;
+			
+
+			h1, p, a {
+				color: 		$yellow;
+			}
+			
+			h1.footer--site-footer--title {
+				
+				@include sm-down {
+					
+					padding: 		0 0 0 0;
+					margin: 		-5px 0 0 0;
+					
+					font-size:		20px;
+					line-height: 	25px;	
+				}
+				
+				@include md-up {
+					margin: 		-7px 0 0 0;
+
+					font-size: 		35px;
+					line-height: 	35px;
+				}
+
+			}
+			
+			p.footer--site-footer--author {
+				
+				color: 		$white !important;
+				
+				@include sm-down {
+					font-size: 15px;
+					line-height: 15px;
+				}
+				
+				a {
+					color: 	$white !important;
+
+					&:focus,
+					&:hover {
+						color:		$yellow !important;						
+					}
+				}
+			}
+
+		}
+		
+	}
+		
+}
