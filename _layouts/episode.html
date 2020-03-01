@@ -2,36 +2,28 @@
 layout: default
 ---
 
-{% include header.html %}
-
-<main id="main-content">
-	
-	<div class="container">
+<div class="container">
 		
-		<section id="episode--content">
+	<section id="episode--content">
+		
+		<h1 id="page--content--title">{{ page.title }}</h1>
+
+		<div id="episode--content--left-column">
+			<h2 class="page--post-content--title">About</h2>
+			<p class="page--item-metadata"><strong>Duration</strong> {{ page.duration | replace: ':', ' mins, ' | append: ' secs' }}</p>
+			<p class="page--item-metadata"><strong>Released</strong> {{ page.date | date: "%d %B %Y" }} </p>
+			<p class="page--item-metadata"><strong>File size</strong> {{ page.length | divided_by: 1048576 | append: ' MB' }}</p>
+			<p class="page--item-links"><a href="{{ page.file }}" class="page--item-link">Download</a></p>
+		</div>
 			
-			<h1 id="page--content--title">{{ page.title }}</h1>
+		<div id="episode--content--right-column">
+			<h2 class="page--post-content--title">In this episode</h2>
+			{{ content }}
+		</div>
+	
+	</section>
 
-			<div id="episode--content--left-column">
-				<h2 class="page--post-content--title">About</h2>
-				<p class="page--item-metadata"><strong>Duration</strong> {{ page.duration | replace: ':', ' mins, ' | append: ' secs' }}</p>
-				<p class="page--item-metadata"><strong>Released</strong> {{ page.date | date: "%d %B %Y" }} </p>
-				<p class="page--item-metadata"><strong>File size</strong> {{ page.length | divided_by: 1048576 | append: ' MB' }}</p>
-				<p class="page--item-links"><a href="{{ page.file }}" class="page--item-link">Download</a></p>
-			</div>
-				
-			<div id="episode--content--right-column">
-				<h2 class="page--post-content--title">In this episode</h2>
-				{{ content }}
-			</div>
-		
-		</section>
-	
-	</div>
-	
-</main>
+</div>
 
 {% include podcast-player.html %}
-
-{% include footer.html %}
 

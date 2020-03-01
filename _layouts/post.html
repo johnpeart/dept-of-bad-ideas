@@ -2,31 +2,22 @@
 layout: default
 ---
 
-{% include header.html %}
-
-<main id="main-content">
+<div class="container">
 	
-	<div class="container">
+	<section id="post--content">
 		
-		<section id="post--content">
+		<h1 id="page--content--title">{{ page.title }}</h1>
+
+		<div id="post--content--left-column">
+			<p class="page--item-metadata"><strong class="page--item-metadata--type">Published</strong> <span class="page--item-metadata--content">{{ page.date | date: "%d %b %Y" }} </p>
+			<p class="page--item-metadata"><strong class="page--item-metadata--type">Written by</strong> 
+	<span class="page--item-metadata--content">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span></p>
+		</div>
 			
-			<h1 id="page--content--title">{{ page.title }}</h1>
-
-			<div id="post--content--left-column">
-				<p class="page--item-metadata"><strong class="page--item-metadata--type">Published</strong> <span class="page--item-metadata--content">{{ page.date | date: "%d %b %Y" }} </p>
-				<p class="page--item-metadata"><strong class="page--item-metadata--type">Written by</strong> 
-		<span class="page--item-metadata--content">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span></p>
-			</div>
-				
-			<div id="post--content--right-column">
-				{{ content }}
-			</div>
-		
-		</section>
+		<div id="post--content--right-column">
+			{{ content }}
+		</div>
 	
-	</div>
-	
-</main>
+	</section>
 
-{% include footer.html %}
-
+</div>

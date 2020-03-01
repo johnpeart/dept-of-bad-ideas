@@ -1,18 +1,8 @@
-main#home {
+main.home {
 
     display: block;
     position: relative;
    
-    @include md-down {
-        width: 			100%;
-    }
-
-    @include lg-up {
-        float: right;
-        min-height: 90vh;
-        width: 67vw;
-
-        padding: 30px 0;
-    }
+    
 
 }

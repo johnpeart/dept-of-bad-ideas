@@ -2,69 +2,61 @@
 layout: default
 ---
 
-{% include header.html %}
-
-<main id="main-content">
-	
-	<div class="container">
-				
-		<section id="page--content">
-			<h1 id="page--content--title">{{ page.title }}</h1>
+<div class="container">
 			
-			<div id="page--content--left-column">
-				
-				{% if page.title == "Episodes" %}
-				<ul>
-				{% for post in site.episodes limit: 5 %}
-					<li class="loop--item">
-						<div class="loop--item--content">
-							<h3 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h3>
-							<p class="item--content--metadata"><strong>Published</strong> {{ post.date | date: "%d %B %Y" }}</p>
-							<span class="item--content--excerpt">{{ post.excerpt }}</span>
-						</div>
-					</li>			
-				{% endfor %}
-				{% elsif page.title =="Blog" %}
-				<ul>
-				{% for post in site.posts limit: 5 %}
-					<li class="loop--item">
-						<div class="loop--item--content">
-							<h3 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h3>
-							<p class="item--content--metadata"><strong>Published</strong> {{ post.date | date: "%d %B %Y" }}</p>
-							<span class="item--content--excerpt">{{ post.excerpt }}</span>
-						</div>
-					</li>			
-				{% endfor %}
-				</ul>
-				{% endif %}
-				</ul>
-				
-			</div>
+	<section id="page--content">
+		<h1 id="page--content--title">{{ page.title }}</h1>
+		
+		<div id="page--content--left-column">
 			
-			<div id="page--content--right-column">
-				
-				<aside>
-					
-					<h3>Get in touch</h3>
-				
-					<p>You can find the <strong>Department of Bad Ideas</strong> on Twitter, <a href="https://www.twitter.com/PodOfBadIdeas" alt="Find the Department on Twitter">@PodOfBadIdeas</a>, or you can email us at <a href="mailto:podcast&#64;johnpe.art" title="Send the Department an email">podcast&#64;johnpe.art</a>.	
-					
-					<h3>Be our guest</h3>
-				
-					<p>If you'd like to be a guest on the <strong>Department for Bad Ideas</strong> podcast, then get in touch.</p>
-				
-					<p>Everything you need to know is in this <a href="/2019/01/30/be-our-guest/" title="Find out more about being a guest">blog post</a>.</p>
-									
-
-				
-				</aside>
-				
-			</div>
+			{% if page.title == "Episodes" %}
+			<ul>
+			{% for post in site.episodes limit: 5 %}
+				<li class="loop--item">
+					<div class="loop--item--content">
+						<h3 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h3>
+						<p class="item--content--metadata"><strong>Published</strong> {{ post.date | date: "%d %B %Y" }}</p>
+						<span class="item--content--excerpt">{{ post.excerpt }}</span>
+					</div>
+				</li>			
+			{% endfor %}
+			{% elsif page.title =="Blog" %}
+			<ul>
+			{% for post in site.posts limit: 5 %}
+				<li class="loop--item">
+					<div class="loop--item--content">
+						<h3 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h3>
+						<p class="item--content--metadata"><strong>Published</strong> {{ post.date | date: "%d %B %Y" }}</p>
+						<span class="item--content--excerpt">{{ post.excerpt }}</span>
+					</div>
+				</li>			
+			{% endfor %}
+			</ul>
+			{% endif %}
+			</ul>
 			
 		</div>
-	
-	</div>
-	
-</main>
+		
+		<div id="page--content--right-column">
+			
+			<aside>
+				
+				<h3>Get in touch</h3>
+			
+				<p>You can find the <strong>Department of Bad Ideas</strong> on Twitter, <a href="https://www.twitter.com/PodOfBadIdeas" alt="Find the Department on Twitter">@PodOfBadIdeas</a>, or you can email us at <a href="mailto:podcast&#64;johnpe.art" title="Send the Department an email">podcast&#64;johnpe.art</a>.	
+				
+				<h3>Be our guest</h3>
+			
+				<p>If you'd like to be a guest on the <strong>Department for Bad Ideas</strong> podcast, then get in touch.</p>
+			
+				<p>Everything you need to know is in this <a href="/2019/01/30/be-our-guest/" title="Find out more about being a guest">blog post</a>.</p>
+								
 
-{% include footer.html %}
+			
+			</aside>
+			
+		</div>
+		
+	</div>
+
+</div>

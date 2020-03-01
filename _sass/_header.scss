@@ -1,28 +1,25 @@
 header#site-title {
 
-    display: block;
+    display: 		block;
+    position: 		relative;
     
-    padding-top: 30px;
-    padding-bottom: 30px;
-
     background:		$yellow;
     
-    position: 		relative;
+    padding: 		30px;
     width: 			100%;
-
-    @include clearfix;
 		
-	div#header--site-logo {
+	a#header--site-logo {
 		
 		position: 	relative;		
 		display: 	inline-block;
+	
+		color: $black;
 
-		@include md-up {			
-			float:		left;
-        }
-        
-        @include clearfix;
-		
+		&:hover h1,
+		&:focus h1 {
+			text-decoration: 		underline;
+		}
+
 		img.header--site-logo--logo {
 			
 			position: 		relative;
@@ -68,13 +65,6 @@ header#site-title {
 				display: block;
 			}
 
-		}
-		
-		a {
-			&:hover h1,
-			&:focus h1 {
-				text-decoration: 		underline;
-			}
 		}
 		
     }

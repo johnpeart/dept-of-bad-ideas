@@ -152,14 +152,14 @@
 
 // BREAKPOINT ONLY 
 
-@mixin sm {
+@mixin xs {
 	@media 	only screen 
 			and (max-width: $sm - 1px) {
 				@content;
 			}
 }
 
-@mixin md {
+@mixin sm {
 	@media 	only screen 
 			and (min-width: $sm)
 			and (max-width: $md - 1px) {
@@ -167,10 +167,18 @@
 			}
 }
 
-@mixin lg {
+@mixin md {
 	@media 	only screen 
 			and (min-width: $md)
 			and (max-width: $lg - 1px) {
+				@content;
+			}
+}
+
+@mixin lg {
+	@media 	only screen 
+			and (min-width: $lg)
+			and (max-width: $xl - 1px) {
 				@content;
 			}
 }

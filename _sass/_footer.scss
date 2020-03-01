@@ -1,19 +1,16 @@
 footer#footer--site-footer {
 
     display: block;
-    position: static;
-
-    top: auto;
-    bottom: 0;
+    position: relative;
 	
 	background:			$black;
 	color: 				$yellow !important;
 	
-	min-height: 		100px;
+	min-height: 		200px;
 	width: 				100%;
     
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 60px;
 		
 	div.container {
 		@include 	clearfix;		
@@ -79,6 +76,7 @@ footer#footer--site-footer {
 				
 				@include md-up {
 					margin: 		-7px 0 0 0;
+					padding: 		0;
 
 					font-size: 		35px;
 					line-height: 	35px;
@@ -89,12 +87,21 @@ footer#footer--site-footer {
 			p.footer--site-footer--author {
 				
 				color: 		$white !important;
-				
+
 				@include sm-down {
 					font-size: 15px;
 					line-height: 15px;
+	
+					padding: 7px 0 0 0;
 				}
 				
+				@include md-up {
+					font-size: 20px;
+					line-height: 20px;
+	
+					padding: 10px 0 0 0;
+				}
+			
 				a {
 					color: 	$white !important;
 
