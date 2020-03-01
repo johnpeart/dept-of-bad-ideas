@@ -75,7 +75,7 @@ section#page--content {
 					float:			left;
 					
 					h3.item--content--title {
-						padding: 		5px 0;
+						padding: 		5px 0 0 0;
 						
 						@include mobile {
 							margin: 	0;
@@ -97,13 +97,17 @@ section#page--content {
 					}
 					
 					p.item--content--metadata {
+
+						margin:  0.5rem 0;
+
 						strong {
 							margin-right: 15px;
 						}
 					}
 					
-					p.item--content--excerpt {
-						margin-bottom: 2rem;
+					span.item--content--excerpt p {
+						margin-top: 0.75rem;
+						margin-bottom: 2rem !important;
 					}
 				}
 				
