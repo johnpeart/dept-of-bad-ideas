@@ -19,12 +19,19 @@ a {
 	&:hover,
 	&:focus {
 		color: 					$link-hover-color;
+		background: 			$black;
+		
 		text-decoration: 		$link-text-decoration-hover;
 		text-decoration-skip: 	ink;
 		text-decoration-skip-ink: auto;
-		
-		/* Text and background color for dark mode */
-		
+
+		outline: 3px solid $black;
+
+		text-decoration: none;
+
+		box-decoration-break: clone;
+		-webkit-box-decoration-break: clone;
+	
 	}
 	
 }
