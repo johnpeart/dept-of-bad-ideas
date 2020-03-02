@@ -1,0 +1,112 @@
+div#playback {
+	
+	display: 		block;
+	position:		relative;
+
+	@include md-up {
+		@include supports-sticky;
+		top:		auto;
+		bottom: 	0;
+	}
+	
+	top:			auto;
+	left:			0;
+	right:			0;
+	bottom: 		0;
+	
+	min-width: 		300px;
+	width:			100%;
+	
+	margin:			0;
+	padding: 		0;
+	
+	background: 	$yellow;
+	color: 			$black;
+	
+	.container {
+		padding-top: 		2rem;
+		padding-bottom: 	2rem;
+	}
+	
+	#audioplayer {
+		
+		display: 		block;
+		position: 		relative;
+		
+		@include 		clearfix;
+			    
+	}
+	
+	#pButton {
+				
+		position: 				relative;
+		display: 				inline-block;
+	    
+	    height:					50px;
+	    width: 					50px;
+	    
+	    margin: 				auto auto;
+	    float: 					left;
+	    
+	    border: 				none;
+	    background-size: 		50% 50%;
+	    background-repeat: 		no-repeat;
+	    background-position: 	center;
+	    outline:				none;
+	    
+	}
+
+	.play{background: url('../images/audioplayer/play.png') ;}
+	.pause{background: url('../images/audioplayer/pause.png') ;}
+
+	#timeline{
+				
+		position: 				relative;
+		display: 				inline-block;
+		
+		float: 					right;
+		
+	    width: 					calc(100% - 100px);
+	    height: 				5px;
+
+	    margin: 				20px 0px 25px auto;
+	    
+		background: 			$yellow;
+	    border: 				1px solid $black;
+
+	}
+	
+	#playhead{
+		position: absolute;
+		display: block;
+
+	    width: 				20px;
+	    height: 			20px;
+	    margin-top: 		-9px;
+	    
+	    background: 		$black;
+	    border-radius: 		50%;
+
+	}
+	
+	#start, #end {
+		position: 		absolute;
+		display: 		block;
+
+		margin-top: 	15px;
+
+		text-align: 	left;
+
+		color: 			$black;
+		font-weight: 	600;
+		font-size: 		80%;
+	}
+
+	#end {
+		left: auto;
+		right: 0;
+
+		text-align: right;
+	}
+
+}
