@@ -2,7 +2,136 @@ main.home {
 
     display: block;
     position: relative;
-   
+
+    section, 
+    aside {
+        @include sm-down {
+            padding: 50px 0;
+        }
+        @include md-up {
+            padding: 75px 0;
+        }
+
+        h2 strong {
+            display: inline;
+
+            color:  $yellow;
+            background: $black;
     
+            @include xs {
+                padding:        3px 8px;
+            }
+    
+            @include sm {
+                padding:        3px 8px;
+            }
+    
+            @include md {
+                padding:        3px 8px;
+            }
+    
+            @include lg {
+                padding:        3px 10px;
+            }
+    
+            @include xl {
+                padding:        3px 15px;
+            }
+    
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        .home--about--highlight-para span {
+            display: inline;
+
+            color:  $black;
+            background: $yellow;
+    
+            @include xs {
+                padding:        5px 8px;
+            }
+    
+            @include sm {
+                padding:        5px 8px;
+            }
+    
+            @include md {
+                padding:        5px 8px;
+            }
+    
+            @include lg {
+                padding:        8px 10px;
+            }
+    
+            @include xl {
+                padding:        8px 15px;
+            }
+    
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        a {
+
+            text-decoration: underline;
+
+            &:hover,
+            &:focus {
+
+                color:  $white;
+                background: $black;
+
+                outline: 3px solid $black;
+
+                text-decoration: none;
+        
+                box-decoration-break: clone;
+                -webkit-box-decoration-break: clone;
+            }
+
+        }
+    }
+   
+    section#home--jumbotron {
+        background: $black;
+        color:      $white;
+
+        h1 {
+            max-width: 25ch;
+
+            strong {
+                color: $yellow;
+            }
+        }
+
+        p {
+            max-width: 45ch;
+        }
+    }
+
+    aside#home--subscribe,
+    aside#home--be-a-guest,
+    section#home--contact {
+        background: $yellow;
+        color:      $black;
+        
+        h2 strong {
+            background:     $black;
+            color:          $yellow;
+        }
+    }
+
+    section h1:first-child,
+    aside h1:first-child,
+    section h2:first-child,
+    aside h2:first-child, {
+        padding-top: 0;
+    }
+
+    section p:last-child,
+    aside p:last-child {
+        padding-bottom: 0;
+    }
 
 }
