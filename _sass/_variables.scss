@@ -88,19 +88,19 @@ $blockquote-background:					$gray-200;
 
 // DEFAULT TEXT SIZES & SPACING
 
-$p-font-size-base:					22px;
+$p-font-size-base:					18px;
 $p-font-size-base-xs:				$p-font-size-base;
-$p-font-size-base-sm:				22px;
-$p-font-size-base-md:				22px;
-$p-font-size-base-lg:				26px;
-$p-font-size-base-xl:				30px;
+$p-font-size-base-sm:				18px;
+$p-font-size-base-md:				18px;
+$p-font-size-base-lg:				22px;
+$p-font-size-base-xl:				26px;
 
-$p-line-height-base:					$p-font-size-base + ($p-font-size-base / 4);
+$p-line-height-base:					$p-font-size-base + ($p-font-size-base / 3);
 $p-line-height-base-xs:				$p-line-height-base;
-$p-line-height-base-sm:				$p-font-size-base-sm + ($p-font-size-base-sm / 4);
-$p-line-height-base-md:				$p-font-size-base-md + ($p-font-size-base-md / 4);
-$p-line-height-base-lg:				$p-font-size-base-lg + ($p-font-size-base-lg / 4);
-$p-line-height-base-xl:				$p-font-size-base-xl + ($p-font-size-base-xl / 5);
+$p-line-height-base-sm:				$p-font-size-base-sm + ($p-font-size-base-sm / 3);
+$p-line-height-base-md:				$p-font-size-base-md + ($p-font-size-base-md / 3);
+$p-line-height-base-lg:				$p-font-size-base-lg + ($p-font-size-base-lg / 3);
+$p-line-height-base-xl:				$p-font-size-base-xl + ($p-font-size-base-xl / 3);
 
 $p-margin-top:						$p-font-size-base;
 $p-margin-top-xs:					$p-font-size-base-xs;
@@ -116,19 +116,19 @@ $p-margin-bottom-md:					$p-font-size-base-md;
 $p-margin-bottom-lg:					$p-font-size-base-lg;
 $p-margin-bottom-xl:					$p-font-size-base-xl;
 
-$p-padding-top:						$p-font-size-base;
-$p-padding-top-xs:					$p-font-size-base-xs;
-$p-padding-top-sm:					$p-font-size-base-sm;
-$p-padding-top-md:					$p-font-size-base-md;
-$p-padding-top-lg:					$p-font-size-base-lg;
-$p-padding-top-xl:					$p-font-size-base-xl;
+$p-padding-top:						$p-font-size-base * 0.75;
+$p-padding-top-xs:					$p-font-size-base-xs * 0.75;
+$p-padding-top-sm:					$p-font-size-base-sm * 0.75;
+$p-padding-top-md:					$p-font-size-base-md * 0.75;
+$p-padding-top-lg:					$p-font-size-base-lg * 0.75;
+$p-padding-top-xl:					$p-font-size-base-xl * 0.75;
 
-$p-padding-bottom:					$p-font-size-base;
-$p-padding-bottom-xs:					$p-font-size-base-xs;
-$p-padding-bottom-sm:					$p-font-size-base-sm;
-$p-padding-bottom-md:					$p-font-size-base-md;
-$p-padding-bottom-lg:					$p-font-size-base-lg;
-$p-padding-bottom-xl:					$p-font-size-base-xl;
+$p-padding-bottom:					$p-font-size-base * 0.75;
+$p-padding-bottom-xs:					$p-font-size-base-xs * 0.75;
+$p-padding-bottom-sm:					$p-font-size-base-sm * 0.75;
+$p-padding-bottom-md:					$p-font-size-base-md * 0.75;
+$p-padding-bottom-lg:					$p-font-size-base-lg * 0.75;
+$p-padding-bottom-xl:					$p-font-size-base-xl * 0.75;
 
 $p-font-weight:						normal;
 

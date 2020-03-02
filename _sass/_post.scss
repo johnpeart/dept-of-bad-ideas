@@ -1,0 +1,149 @@
+main.post,
+main.episode {
+
+    article#post--content,
+    article#episode--content {
+        @include sm-down {
+            padding: 30px 0 50px 0;
+        }
+        @include md-up {
+            padding: 30px 0 75px 0;
+        } 
+    }
+
+    h1#page--content--title {
+        font-size: 			$h1-font-size-base;
+        line-height: 		$h1-line-height-base;
+        padding-top: 	    $h1-padding-bottom;
+        
+        @include xs {
+            font-size: 		$h1-font-size-base-xs;
+            line-height: 	$h1-line-height-base-xs * 1.5;
+            padding-top: 	$h1-padding-bottom-xs;
+        }
+        @include sm {
+            font-size: 		$h1-font-size-base-sm;
+            line-height: 	$h1-line-height-base-sm * 1.5;
+            padding-top: 	$h1-padding-bottom-sm;
+        }
+        @include md {
+            font-size: 		$h1-font-size-base-md * 1.25;
+            line-height: 	$h1-line-height-base-md * 1.6;
+            padding-top: 	$p-padding-bottom-md;
+        }
+        @include lg {
+            font-size: 		$h1-font-size-base-lg * 1.25;
+            line-height: 	$h1-line-height-base-lg * 1.6;
+            padding-top:    $h1-padding-bottom-lg;
+        }
+        @include xl {
+            font-size: 		$h1-font-size-base-xl * 1.25;
+            line-height: 	$h1-line-height-base-xl * 1.6;
+            padding-top:    $h1-padding-bottom-xl;
+        }
+
+        strong {
+            display: inline;
+
+            color:  $yellow;
+            background: $black;
+    
+            @include xs {
+                padding:        3px 8px;
+            }
+    
+            @include sm {
+                padding:        3px 8px;
+            }
+    
+            @include md {
+                padding:        3px 8px;
+            }
+    
+            @include lg {
+                padding:        3px 10px;
+            }
+    
+            @include xl {
+                padding:        3px 15px;
+            }
+    
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+
+        }
+
+    }
+
+    p {
+        max-width: 60ch;
+    }
+
+    aside#post--metadata,
+    aside#episode--content--metadata {
+        @include sm-down {
+            padding: 30px 0 50px 0;
+        }
+        @include md-up {
+            padding: 50px 0 0 0;
+        } 
+
+        margin-top: 30px;
+        
+        border-top: 3px solid $yellow;
+
+        strong {
+            display: inline;
+
+            color:  $black;
+            background: $yellow;
+    
+            @include xs {
+                padding:        3px 8px;
+            }
+    
+            @include sm {
+                padding:        3px 8px;
+            }
+    
+            @include md {
+                padding:        3px 8px;
+            }
+    
+            @include lg {
+                padding:        3px 10px;
+            }
+    
+            @include xl {
+                padding:        3px 8px;
+            }
+    
+            margin-right:       25px;
+            
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        a {
+			
+			display: inline-block;
+			
+			margin:			2rem 0 0 0;
+			padding: 		5px 10px;
+			
+			border:			1px solid $black;
+			
+			text-decoration: 	none;
+			
+			&:hover,
+			&:focus {
+				background: 		$black;
+				color: 				$yellow;
+				
+				text-decoration: 	none;
+			}
+			
+		}
+    }
+
+}

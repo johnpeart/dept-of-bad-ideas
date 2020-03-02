@@ -1,0 +1,209 @@
+main.loop {
+
+    h1#page--content--title {
+        font-size: 			$h1-font-size-base;
+        line-height: 		$h1-line-height-base;
+        padding-top: 	    $h1-padding-bottom;
+        
+        @include xs {
+            font-size: 		$h1-font-size-base-xs;
+            line-height: 	$h1-line-height-base-xs;
+            padding-top: 	$h1-padding-bottom-xs;
+        }
+        @include sm {
+            font-size: 		$h1-font-size-base-sm;
+            line-height: 	$h1-line-height-base-sm;
+            padding-top: 	$h1-padding-bottom-sm;
+        }
+        @include md {
+            font-size: 		$h1-font-size-base-md * 1.25;
+            line-height: 	$h1-line-height-base-md * 1.25;
+            padding-top: 	$p-padding-bottom-md;
+        }
+        @include lg {
+            font-size: 		$h1-font-size-base-lg * 1.25;
+            line-height: 	$h1-line-height-base-lg * 1.25;
+            padding-top:    $h1-padding-bottom-lg;
+        }
+        @include xl {
+            font-size: 		$h1-font-size-base-xl * 1.25;
+            line-height: 	$h1-line-height-base-xl * 1.25;
+            padding-top:    $h1-padding-bottom-xl;
+        }
+    }
+
+    section {
+        @include sm-down {
+            padding: 30px 0 50px 0;
+        }
+        @include md-up {
+            padding: 30px 0 75px 0;
+        } 
+    }
+    ul {
+        list-style: none;
+        padding: 			0;
+        
+        li.loop--item {
+            
+            @include clearfix;
+            
+            padding: 		0;
+            margin: 		0;
+            
+            border-bottom: 	1px solid $black;
+            
+            &:last-of-type {
+                border-bottom: 	none;
+            }
+            
+            div.loop--item--content {
+                
+                display: 		inline-block;
+                position: 		relative;
+                
+                float:			left;
+                
+                h2.item--content--title {
+
+                    font-size: 			$h2-font-size-base;
+                    line-height: 		$h2-line-height-base;
+                    padding-top: 	    $h2-padding-bottom;
+                    
+                    @include xs {
+                        font-size: 		$h2-font-size-base-xs;
+                        line-height: 	$h2-line-height-base-xs;
+                        padding-top: 	$h2-padding-bottom-xs;
+                    }
+                    @include sm {
+                        font-size: 		$h2-font-size-base-sm;
+                        line-height: 	$h2-line-height-base-sm;
+                        padding-top: 	$h2-padding-bottom-sm;
+                    }
+                    @include md {
+                        font-size: 		$h2-font-size-base-md;
+                        line-height: 	$h2-line-height-base-md;
+                        padding-top: 	$p-padding-bottom-md;
+                    }
+                    @include lg {
+                        font-size: 		$h2-font-size-base-lg;
+                        line-height: 	$h2-line-height-base-lg;
+                        padding-top:    $h2-padding-bottom-lg;
+                    }
+                    @include xl {
+                        font-size: 		$h2-font-size-base-xl;
+                        line-height: 	$h2-line-height-base-xl;
+                        padding-top:    $h2-padding-bottom-xl;
+                    }
+
+                    padding: 		5px 0 0 0;
+                    
+                    margin: 	0;
+                    
+                    a {
+                        text-decoration:	underline;
+                        
+                        &:hover,
+                        &:focus {
+                            background: 		$black;
+                            color: 				$yellow;
+                            
+                            text-decoration: 	none;
+                            outline: 			3px solid $black;
+                        }
+                    }
+                    
+                }
+                
+                p.item--content--metadata {
+
+                    margin:  10px 0 0 0;
+                    padding-bottom: 0;
+
+                    strong {
+                        margin-right: 15px;
+                    }
+                }
+                
+                span.item--content--excerpt p {
+                    margin-top: 0.75rem;
+                    margin-bottom: 2rem !important;
+                }
+            }
+            
+        }
+    }
+
+    aside {
+        @include sm-down {
+            padding: 50px 0;
+        }
+        @include md-up {
+            padding: 75px 0;
+        }
+        
+        background: $yellow;
+        color:      $black;
+        
+        h2 strong {
+            display: inline;
+
+            background:     $black;
+            color:          $yellow;
+    
+            @include xs {
+                padding:        3px 8px;
+            }
+    
+            @include sm {
+                padding:        3px 8px;
+            }
+    
+            @include md {
+                padding:        3px 8px;
+            }
+    
+            @include lg {
+                padding:        3px 10px;
+            }
+    
+            @include xl {
+                padding:        3px 15px;
+            }
+    
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+
+        }
+
+        h2:first-child, {
+            padding-top: 0;
+        }
+
+        p:last-child {
+            padding-bottom: 0;
+        }
+
+        a {
+
+            text-decoration: underline;
+
+            &:hover,
+            &:focus {
+
+                color:  $white;
+                background: $black;
+
+                outline: 3px solid $black;
+
+                text-decoration: none;
+        
+                box-decoration-break: clone;
+                -webkit-box-decoration-break: clone;
+            
+            }
+
+        }
+    }
+
+}
