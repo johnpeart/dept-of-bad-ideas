@@ -40,6 +40,7 @@ main.home {
     
             box-decoration-break: clone;
             -webkit-box-decoration-break: clone;
+
         }
 
         .home--about--highlight-para span {
@@ -88,6 +89,7 @@ main.home {
         
                 box-decoration-break: clone;
                 -webkit-box-decoration-break: clone;
+            
             }
 
         }
@@ -100,13 +102,17 @@ main.home {
         h1 {
             max-width: 25ch;
 
+            font-weight: normal;
+
             strong {
                 color: $yellow;
+
+                font-weight: bold;
             }
         }
 
         p {
-            max-width: 45ch;
+            max-width: 35ch;
         }
     }
 
@@ -132,6 +138,113 @@ main.home {
     section p:last-child,
     aside p:last-child {
         padding-bottom: 0;
+    }
+
+    section#home--loop {
+
+        h2 {
+            padding-bottom: 10px;
+        }
+
+        ul {
+			list-style: none;
+			padding: 			0;
+			
+			li.loop--item {
+								
+				padding: 		0;
+				margin: 		0;
+				
+				border-bottom: 	1px solid $black;
+				
+				article.loop--item--content {
+					
+					display: 		inline-block;
+					position: 		relative;
+										
+					h3.item--content--title {
+
+                        font-size: 			$p-font-size-base;
+                        line-height: 		$p-line-height-base;
+                        padding-bottom: 	$p-padding-bottom;
+                        
+                        @include xs {
+                            font-size: 		$p-font-size-base-xs;
+                            line-height: 	$p-line-height-base-xs;
+                            padding-bottom: 	$p-padding-bottom-xs;
+                        }
+                        @include sm {
+                            font-size: 		$p-font-size-base-sm;
+                            line-height: 	$p-line-height-base-sm;
+                            padding-bottom: 	$p-padding-bottom-sm;
+                        }
+                        @include md {
+                            font-size: 		$p-font-size-base-md;
+                            line-height: 	$p-line-height-base-md;
+                            padding-bottom: 	$p-padding-bottom-md;
+                        }
+                        @include lg {
+                            font-size: 		$p-font-size-base-lg;
+                            line-height: 	$p-line-height-base-lg;
+                            padding-bottom: $p-padding-bottom-lg;
+                        }
+                        @include xl {
+                            font-size: 		$p-font-size-base-xl;
+                            line-height: 	$p-line-height-base-xl;
+                            padding-bottom: $p-padding-bottom-xl;
+                        }
+                        
+                        font-weight:			$p-font-weight;
+						
+					}
+				}
+            }
+            
+            p:last-child {
+                
+                font-size: 			$p-font-size-base * 0.75;
+                line-height: 		$p-line-height-base;
+                padding-top: 	$p-padding-bottom;
+                
+                @include xs {
+                    font-size: 		$p-font-size-base-xs * 0.75;
+                    line-height: 	$p-line-height-base-xs;
+                    padding-top: 	$p-padding-bottom-xs;
+                }
+                @include sm {
+                    font-size: 		$p-font-size-base-sm * 0.75;
+                    line-height: 	$p-line-height-base-sm;
+                    padding-top: 	$p-padding-bottom-sm;
+                }
+                @include md {
+                    font-size: 		$p-font-size-base-md * 0.75;
+                    line-height: 	$p-line-height-base-md;
+                    padding-top: 	$p-padding-bottom-md;
+                }
+                @include lg {
+                    font-size: 		$p-font-size-base-lg * 0.75;
+                    line-height: 	$p-line-height-base-lg;
+                    padding-top: $p-padding-bottom-lg;
+                }
+                @include xl {
+                    font-size: 		$p-font-size-base-xl * 0.75;
+                    line-height: 	$p-line-height-base-xl;
+                    padding-top: $p-padding-bottom-xl;
+                }
+
+                a {
+                    text-decoration: none;
+
+                    &:hover,
+                    &:focus {
+                        color: $yellow;
+                    }
+                }
+
+            }
+		}
+		
+
     }
 
 }

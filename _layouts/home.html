@@ -44,13 +44,9 @@ layout: default
             <article class="loop--item--content">
                 <h3 class="item--content--title"><a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ episode.title }}</a></h3>
             </article>
-            <!-- 
-            <div class="loop--item--links">							
-                <a href="{{ episode.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-link">Listen</a>
-                <a href="{{ episode.file }}" class="loop--item-link">Download</a>
-            </div> -->
         </li>					
     {% endfor %}
+        <p><a href="/episodes/">More episodes</a></p></li>
     </ul>
     
     <h2><strong>Recent blog posts</strong></h2>
@@ -63,6 +59,7 @@ layout: default
             </article>
         </li>					
     {% endfor %}
+        <p><a href="/posts/">More posts</a></p></li>
     </ul>
 
     </div>
