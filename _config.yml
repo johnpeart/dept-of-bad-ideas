@@ -79,6 +79,12 @@ collections:
     defaults:
       values:
         layout: episode
+  guest-guides:
+    output: true
+    permalink: /guest-guides/:path/
+    defaults:
+      values:
+        layout: post
 
 plugins:
 - jekyll-sitemap
