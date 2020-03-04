@@ -1,0 +1,26 @@
+@mixin supports-grid {
+
+	@supports (display: grid) {
+        
+                display:        grid;
+
+                @content;
+
+	}
+
+}
+
+
+@mixin supports-not-grid {
+
+	@supports not (display: grid) {
+        
+                display:        grid;
+
+                @content;
+
+	}
+
+}
+
+

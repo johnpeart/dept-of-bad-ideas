@@ -46,7 +46,7 @@ body {
 		padding-right: unquote('max(0px, env(safe-area-inset-right))');
 	}
 
-	@include clearfix;
+		@include clearfix;
 
 }
 
