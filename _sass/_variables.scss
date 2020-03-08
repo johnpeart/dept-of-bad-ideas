@@ -201,12 +201,12 @@ $h2-font-size-base-md:				$p-font-size-base-md + 10px;
 $h2-font-size-base-lg:				$p-font-size-base-lg + 10px;
 $h2-font-size-base-xl:				$p-font-size-base-xl + 10px;
 
-$h2-line-height-base:				$h2-font-size-base + ($h2-font-size-base / 4);
+$h2-line-height-base:				$h2-font-size-base * 1.7;
 $h2-line-height-base-xs:				$h2-line-height-base;
-$h2-line-height-base-sm:				$h2-font-size-base-sm + ($h2-font-size-base-sm / 4);
-$h2-line-height-base-md:				$h2-font-size-base-md + ($h2-font-size-base-md / 4);
-$h2-line-height-base-lg:				$h2-font-size-base-lg + ($h2-font-size-base-lg / 4);
-$h2-line-height-base-xl:				$h2-font-size-base-xl + ($h2-font-size-base-xl / 4);
+$h2-line-height-base-sm:				$h2-font-size-base-sm * 1.7;
+$h2-line-height-base-md:				$h2-font-size-base-md * 1.5;
+$h2-line-height-base-lg:				$h2-font-size-base-lg * 1.5;
+$h2-line-height-base-xl:				$h2-font-size-base-xl * 1.5;
 
 $h2-padding-top:					$h2-font-size-base * 2;
 $h2-padding-top-xs:					$h2-font-size-base-xs * 2;
