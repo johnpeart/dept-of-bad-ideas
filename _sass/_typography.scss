@@ -1,5 +1,14 @@
 // Typography
 
+hr {
+	border:		none;
+
+	height: 	3px;
+	background: $yellow;
+
+	margin: 	30px 0 45px 0;
+}
+
 a {
 	
 	display: 				inline;
@@ -354,22 +363,27 @@ li {
 	@include xs {
 		font-size: 		$p-font-size-base-xs;
 		line-height: 	$p-line-height-base-xs;
+		padding-bottom: 	$p-padding-bottom-xs;
 	}
 	@include sm {
 		font-size: 		$p-font-size-base-sm;
 		line-height: 	$p-line-height-base-sm;
+		padding-bottom: 	$p-padding-bottom-sm;
 	}
 	@include md {
 		font-size: 		$p-font-size-base-md;
 		line-height: 	$p-line-height-base-md;
+		padding-bottom: 	$p-padding-bottom-md;
 	}
 	@include lg {
 		font-size: 		$p-font-size-base-lg;
 		line-height: 	$p-line-height-base-lg;
+		padding-bottom: $p-padding-bottom-lg;
 	}
 	@include xl {
 		font-size: 		$p-font-size-base-xl;
 		line-height: 	$p-line-height-base-xl;
+		padding-bottom: $p-padding-bottom-xl;
 	}
 	
 	font-weight:		$p-font-weight;

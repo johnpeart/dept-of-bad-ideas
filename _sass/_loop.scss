@@ -125,9 +125,9 @@ main.loop {
                     }
                 }
                 
-                span.item--content--excerpt p {
-                    margin-top: 0.75rem;
-                    margin-bottom: 2rem !important;
+                p.item--content--excerpt {
+                    margin-top: 1rem;
+                    margin-bottom: 1rem !important;
                 }
             }
             

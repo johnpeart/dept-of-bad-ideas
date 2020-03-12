@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What’s all this about then?"
-description: "The Department of Bad Ideas is a podcast about policy, disconnected from reality. Find out more about what's in store, and how you can be in an episode."
+excerpt: "The Department of Bad Ideas is a podcast about policy, disconnected from reality. Find out more about what's in store, and how you can be in an episode."
 ---
 
 If you've found your way to this blog post, you've stumbled upon a brand new podcast. It's a podcast about public policy as game show, and it’s called the **Department of Bad Ideas**. Welcome! 
