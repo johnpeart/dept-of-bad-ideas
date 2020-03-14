@@ -87,8 +87,6 @@ main.episode {
         @include md-up {
             padding: 50px 0 0 0;
         } 
-
-        margin-top: 30px;
         
         border-top: 3px solid $yellow;
 
@@ -144,6 +142,97 @@ main.episode {
 			}
 			
 		}
+    }
+
+    aside#post--next-prev {
+
+        position: relative;
+        display: flex;
+
+        margin-top: 30px;
+        
+        border-top: 3px solid $yellow;
+
+        @include clearfix;
+
+        p[class^="page--next-prev--"] {
+
+            position: relative;
+            flex: 1;
+            
+            background: $yellow;
+
+            padding: 20px;
+            margin: 20px 0;
+
+            &:first-child {
+                margin-right: 10px;
+            }
+            &:last-child {
+                margin-left: 10px;
+            }
+            &:only-child {
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            @include md-up {
+                width: 50%;
+                max-width: 50%;
+            }
+
+            a {
+                display: inline-block;
+                margin-left: 35px;
+
+                &:hover {
+                    background: none;
+                    outline: none;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            &:hover,
+            &:focus {
+                color:      $white;
+                background: $black;
+                outline:    none;
+            }
+
+            @include clearfix;
+        }
+
+        p.page--next-prev--prev {
+            @include md-up {
+                float:      left;
+            }
+        }
+
+        p.page--next-prev--next {
+            @include md-up {
+                float:      right;
+            }
+        }
+
+        span.page--next-prev--arrow {
+            display: block;
+            float: left;
+            width: 35px;
+        }
+
+        span.page--next-prev--label {
+            display: block;
+            font-weight: bold;
+        }
+
     }
 
 }

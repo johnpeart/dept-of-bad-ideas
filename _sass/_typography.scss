@@ -394,66 +394,62 @@ ul {
 	
 	list-style-type: disc;
 	
-	padding-left: $p-font-size-base * 1.5;
+	padding-left: $p-font-size-base * 3;
 	
 	@include xs {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-xs;
+		padding-top: 		$p-font-size-base-xs;
+		padding-bottom: 	$p-font-size-base-xs * 2;
 	}
 	
 	@include sm {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-sm;
+		padding-top: 		$p-font-size-base-sm;
+		padding-bottom: 	$p-font-size-base-sm * 2;
 	}
 	
 	@include md {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-md;
+		padding-top: 		$p-font-size-base-md;
+		padding-bottom: 	$p-font-size-base-md * 2;
 	}
 	
 	@include lg {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-lg;
+		padding-top: 		$p-font-size-base-lg;
+		padding-bottom: 	$p-font-size-base-lg * 2;
 	}
 	
 	@include xl {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-xl;
+		padding-top: 		$p-font-size-base-xl;
+		padding-bottom: 	$p-font-size-base-xl * 2;
 	}
 
 }
 
 ol {
 	
-	padding-left: $p-font-size-base * 2;
-	
-	@include md-up {
-		padding-left: 0;
-	}
+	padding-left: $p-font-size-base * 3;
 	
 	@include xs {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-xs;
+		padding-top: 		$p-font-size-base-xs;
+		padding-bottom: 	$p-font-size-base-xs * 2;
 	}
 	
 	@include sm {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-sm;
+		padding-top: 		$p-font-size-base-sm;
+		padding-bottom: 	$p-font-size-base-sm * 2;
 	}
 	
 	@include md {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-md;
+		padding-top: 		$p-font-size-base-md;
+		padding-bottom: 	$p-font-size-base-md * 2;
 	}
 	
 	@include lg {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-lg;
+		padding-top: 		$p-font-size-base-lg;
+		padding-bottom: 	$p-font-size-base-lg * 2;
 	}
 	
 	@include xl {
-		padding-top: 		0;
-		padding-bottom: 	$p-font-size-base-xl;
+		padding-top: 		$p-font-size-base-xl;
+		padding-bottom: 	$p-font-size-base-xl * 2;
 	}
 		
 	list-style: decimal;

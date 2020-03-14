@@ -13,7 +13,7 @@ To be a guest on the **Department of Bad Ideas** you’ll need to do a little bi
 
 You will be given a policy problem to solve ahead of time. Prepare a 5 minute pitch to solve the problem. The solution must be impossible to implement but very electorally attractive. 
 
-[Find out more about Round 1]()
+[Find out more about Round 1](/guest-guides/impossible-implementation-unit)
 
 ---
 
@@ -21,7 +21,7 @@ You will be given a policy problem to solve ahead of time. Prepare a 5 minute pi
 
 You will be given another policy problem to solve ahead of time. Prepare a 5 minute pitch to solve the problem. The solution must be workable but politically unattractive.
 
-[Find out more about Round 2]()
+[Find out more about Round 2](/guest-guides/unsaleable-policy-division)
 
 ---
 
@@ -29,7 +29,7 @@ You will be given another policy problem to solve ahead of time. Prepare a 5 min
 
 Pick any policy problem you like. Prepare a 5 minute pitch to solve the problem. The solution must be the biggest, boldest, best solution you can come up with. 
 
-[Find out more about Round 3]()
+[Find out more about Round 3](/guest-guides/the-big-idea)
 
 ---
 
@@ -37,4 +37,4 @@ Pick any policy problem you like. Prepare a 5 minute pitch to solve the problem.
 
 You will be given a series of small policy issues to solve during recording. You will be asked to pitch a solution to those problems on the fly. Practice talking about solving problem without interruption for 1 minute at a time. 
 
-[Find out more about Round 4]()
+[Find out more about Round 4](/guest-guides/in-the-thick-of-it)

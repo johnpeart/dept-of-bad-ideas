@@ -10,6 +10,25 @@ layout: default
 
 		{{ content }}
 
+		{% if page.next or page.previous %}
+		<aside id="post--next-prev">
+			{% if page.previous %}
+			<p class="page--next-prev--prev">
+				<span class="page--next-prev--arrow">←</span>
+				<span class="page--next-prev--label">Previous</span>
+				<a href="{{ page.previous.url }}" title="Go to previous post">{{ page.previous.title }}</a>
+			</p>
+			{% endif %}
+			{% if page.next %}
+			<p class="page--next-prev--next">
+				<span class="page--next-prev--arrow">→</span>
+				<span class="page--next-prev--label">Next</span>
+				<a href="{{ page.next.url }}" title="Go to next post">{{ page.next.title }}</a>
+			</p>
+			{% endif %}
+		</aside>
+		{% endif %}
+
 		<aside id="post--metadata">
 			<p class="page--item-metadata"><strong class="page--item-metadata--type">Published</strong> <span class="page--item-metadata--content">{{ page.date | date: "%d %b %Y" }} </p>
 			<p class="page--item-metadata"><strong class="page--item-metadata--type">Written by</strong> 
