@@ -229,6 +229,18 @@ main.episode {
             }
         }
 
+        p.page--next-prev--prev-blank {
+            background: none;
+
+            &:hover {
+                background: none;
+            }
+
+            @include sm-down {
+                display: none;
+            }
+        }
+
         span.page--next-prev--arrow {
             display: block;
             float: left;

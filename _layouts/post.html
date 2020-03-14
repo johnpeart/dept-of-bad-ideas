@@ -18,6 +18,10 @@ layout: default
 				<span class="page--next-prev--label">Previous</span>
 				<a href="{{ page.previous.url }}" title="Go to previous post">{{ page.previous.title }}</a>
 			</p>
+			{% else %}
+			<p class="page--next-prev--prev-blank">
+				
+			</p>
 			{% endif %}
 			{% if page.next %}
 			<p class="page--next-prev--next">
