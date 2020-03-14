@@ -254,4 +254,115 @@ main.episode {
 
     }
 
+
+    div.footnotes {
+		
+        &:before {
+            
+            display: block;
+            
+            @include xs {
+                font-size: 		$h3-font-size-base-xs;
+                line-height: 	$h3-line-height-base-xs;
+                padding-top: 		$h3-padding-top-xs;
+                padding-bottom: 	$h3-padding-bottom-xs;
+            }
+            @include sm {
+                font-size: 		$h3-font-size-base-sm;
+                line-height: 	$h3-line-height-base-sm;
+                padding-top: 		$h3-padding-top-sm;
+                padding-bottom: 	$h3-padding-bottom-sm;
+            }
+            @include md {
+                font-size: 		$h3-font-size-base-md;
+                line-height: 	$h3-line-height-base-md;
+                padding-top: 		$h3-padding-top-md;
+                padding-bottom: 	$h3-padding-bottom-md;
+            }
+            @include lg {
+                font-size: 		$h3-font-size-base-lg;
+                line-height: 	$h3-line-height-base-lg;
+                padding-top: 		$h3-padding-top-lg;
+                padding-bottom: 	$h3-padding-bottom-lg;
+            }
+            @include xl {
+                font-size: 		$h3-font-size-base-xl;
+                line-height: 	$h3-line-height-base-xl;
+                padding-top: 		$h3-padding-top-xl;
+                padding-bottom: 	$h3-padding-bottom-xl;
+            }
+            
+            font-weight:			$h3-font-weight;
+            font-style: 			$h3-font-style; 
+            text-align: 			$h3-text-align;		
+            text-decoration: 	$h3-text-decoration;
+            text-transform: 		$h3-text-transform;
+            
+            content: "Footnotes";
+        }
+        
+        padding-top: 			$footnotes-font-size-base * 6;
+        max-width: 			600px;
+        
+        @include xs {
+            padding-top: 		$footnotes-font-size-base-xs * 6;
+            max-width: 		400px;
+        }
+        @include sm {
+            padding-top: 		$footnotes-font-size-base-sm * 6;
+            max-width: 		500px;
+        }
+        @include md {
+            padding-top: 		$footnotes-font-size-base-md * 6;
+            max-width: 		450px;
+        }
+        @include lg {
+            padding-top: 		$footnotes-font-size-base-lg * 6;
+            max-width: 		600px;
+        }
+        @include xl {
+            padding-top: 		$footnotes-font-size-base-xl * 6;
+            max-width: 		600px;
+        }
+        
+        ul,ol {
+            padding-left: $footnotes-font-size-base * 2;
+        }
+        
+        p, li {
+            font-size: 			$footnotes-font-size-base;
+            line-height: 		$footnotes-line-height-base;
+            padding-bottom: 		$footnotes-padding-bottom;
+            
+            @include xs {
+                font-size: 		$footnotes-font-size-base-xs;
+                line-height: 	$footnotes-line-height-base-xs;
+                padding-bottom: 	$footnotes-padding-bottom-xs;
+            }
+            @include sm {
+                font-size: 		$footnotes-font-size-base-sm;
+                line-height: 	$footnotes-line-height-base-sm;
+                padding-bottom: 	$footnotes-padding-bottom-sm;
+            }
+            @include md {
+                font-size: 		$footnotes-font-size-base-md;
+                line-height: 	$footnotes-line-height-base-md;
+                padding-bottom: 	$footnotes-padding-bottom-md;
+            }
+            @include lg {
+                font-size: 		$footnotes-font-size-base-lg;
+                line-height: 	$footnotes-line-height-base-lg;
+                padding-bottom: 	$footnotes-padding-bottom-lg;
+            }
+            @include xl {
+                font-size: 		$footnotes-font-size-base-xl;
+                line-height: 	$footnotes-line-height-base-xl;
+                padding-bottom: 	$footnotes-padding-bottom-xl;
+            }
+            
+            font-weight:			$footnotes-font-weight;
+        }
+        
+    }
+
 }
