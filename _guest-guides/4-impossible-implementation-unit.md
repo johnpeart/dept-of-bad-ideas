@@ -20,10 +20,10 @@ For the first round, you will be given a public policy problem ahead of time. It
 
 Once you have finished your presentation, I will give you a score. You will be scored on the following criteria:
 
-- How good your presentation is
-- The originality of the idea
-- How practical the idea is
-- Whether I would personally vote for it
+- how good your presentation is
+- the originality of the idea
+- how practical the idea is
+- whether I would personally vote for it
 
 Each of these criteria are scored on a scale of -5 to +5 points. 
 
