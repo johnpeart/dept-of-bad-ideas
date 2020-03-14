@@ -34,7 +34,7 @@ layout: default
 		</ul>
 		{% elsif page.title =="Guest guides" %}
 		<ul>
-		{% for post in site.guest-guides limit: 5 %}
+		{% for post in site.guest-guides %}
 			<li class="loop--item">
 				<div class="loop--item--content">
 					<h2 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
