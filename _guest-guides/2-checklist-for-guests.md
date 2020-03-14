@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Checklist for guests"
-excerpt: "A quick checklist of things you’ll need to prepare as a guest on Department of Bad Ideas."
+excerpt: "A quick checklist of things you will need to prepare as a guest on Department of Bad Ideas."
+permalink: guest-guides/checklist
 ---
 
 To be a guest on the **Department of Bad Ideas** you’ll need to do a little bit of homework. Below is a quick checklist of things you’ll need to do. Read the more detailed guidance on each task for more information.
