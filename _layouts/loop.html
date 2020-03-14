@@ -10,7 +10,7 @@ layout: default
 
 		{% if page.title == "Episodes" %}
 		<ul>
-		{% for post in site.episodes limit: 5 %}
+		{% for post in site.episodes %}
 			<li class="loop--item">
 				<div class="loop--item--content">
 					<h2 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
@@ -22,7 +22,7 @@ layout: default
 		</ul>
 		{% elsif page.title =="Blog" %}
 		<ul>
-		{% for post in site.posts limit: 5 %}
+		{% for post in site.posts %}
 			<li class="loop--item">
 				<div class="loop--item--content">
 					<h2 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
