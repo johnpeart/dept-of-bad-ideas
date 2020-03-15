@@ -2,7 +2,7 @@ main.post,
 main.episode {
 
     aside#breadcrumbs {
-        background: darken($yellow, 5%);
+        background: $yellow;
 
         p {
             @include xs {
