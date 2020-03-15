@@ -27,7 +27,7 @@ One tip: **don’t write down everything you’re planning to say verbatim**. In
 
 Talk like you would if you weren’t being recorded: casually and without too much of a plan!
 
-# Things you shouldn’t do
+# **Things you shouldn’t do**
 
 ## Don’t make it Political
 
