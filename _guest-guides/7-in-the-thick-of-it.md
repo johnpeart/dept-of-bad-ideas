@@ -16,7 +16,7 @@ Here’s an idea of the kinds of things that might come up:
 - *What should we do to stop anti-social behaviour?*
 - *How should we fix fake news?*
 - *How do we make cyclists better?*
-- *Is their anything we can do to end “Blue Monday”?*
+- *Is there anything we can do to end “Blue Monday”?*
 - *If you could introduce a new tax, what would it be for?*
 
 (It’s not an exhaustive list.)
