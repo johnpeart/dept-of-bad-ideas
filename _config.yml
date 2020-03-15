@@ -73,15 +73,21 @@ sass:
     sass_dir: _sass
     
 collections:
+  posts:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
+    defaults:
+      values:
+        layout: post
   episodes:
     output: true
-    permalink: /episode/:path/
+    permalink: /:collection/:title/
     defaults:
       values:
         layout: episode
   guest-guides:
     output: true
-    permalink: /guest-guides/:path/
+    permalink: /:collection/:title/
     defaults:
       values:
         layout: post
