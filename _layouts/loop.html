@@ -8,7 +8,7 @@ layout: default
 
 		<h1 id="page--content--title">{{ page.title }}</h1>
 
-		{% if page.title == "Episodes" %}
+		{% if page.title == "All episodes" %}
 		<ul>
 		{% for post in site.episodes %}
 			<li class="loop--item">
@@ -20,7 +20,7 @@ layout: default
 			</li>			
 		{% endfor %}
 		</ul>
-		{% elsif page.title =="Blog" %}
+		{% elsif page.title =="All blog posts" %}
 		<ul>
 		{% for post in site.posts %}
 			<li class="loop--item">
