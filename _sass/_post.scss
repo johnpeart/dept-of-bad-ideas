@@ -1,6 +1,28 @@
 main.post,
 main.episode {
 
+    aside#breadcrumbs {
+        background: darken($yellow, 5%);
+
+        p {
+            @include xs {
+                padding: 	$p-padding-bottom-xs 0;
+            }
+            @include sm {
+                padding: 	$p-padding-bottom-sm 0;
+            }
+            @include md {
+                padding: 	$p-padding-bottom-md 0;
+            }
+            @include lg {
+                padding: $p-padding-bottom-lg 0;
+            }
+            @include xl {
+                padding: $p-padding-bottom-xl 0;
+            }
+        }
+    }
+
     article#post--content,
     article#episode--content {
         @include sm-down {
