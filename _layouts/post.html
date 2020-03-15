@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<aside id="breadcrumbs">
+<aside id="breadcrumbs" role="navigation">
 	<div class="container">
 		<p>
 			<span><a href="{{ site.url }}" title="Go to the home page">Home</a></span>
@@ -26,7 +26,7 @@ layout: default
 		{{ content }}
 
 		{% if page.next or page.previous %}
-		<aside id="post--next-prev">
+		<aside id="post--next-prev" role="navigation">
 			{% if page.previous %}
 			<p class="page--next-prev--prev">
 				<span class="page--next-prev--arrow">←</span>
