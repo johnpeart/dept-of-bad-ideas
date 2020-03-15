@@ -126,6 +126,12 @@ main.home {
             background:     $black;
             color:          $yellow;
         }
+
+        p, h2 {
+            @include md-up {
+                max-width: 55ch;
+            }
+        }
     }
 
     section h1:first-child,
