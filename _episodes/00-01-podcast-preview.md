@@ -26,7 +26,7 @@ season:			# Enter a number if applicable
 episode:		# Enter a number if applicable
 
 type:			trailer # "trailer" or "full"
-duration: 		"04:38” # audio length in min
+duration: 		"04:38" # audio length in min
 length: 		"5601463" # filesize in byte
 
 file: 			"https://s3.eu-west-2.amazonaws.com/episodes.johnpe.art/dept-of-bad-ideas/00-00-department-of-bad-ideas-preview-episode.m4a"
