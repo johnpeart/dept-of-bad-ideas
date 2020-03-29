@@ -9,15 +9,15 @@ permalink: guest-guides/other-things-to-know
 
 We will record the podcast episode in one continuous recording; but there may be some starting and stopping involved. I will heavily edit the podcast after we’re done, so don’t worry about making mistakes.
 
-You won’t need to worry about operating any technology: I’ll do that.
+**If we are recording face-to-face**, you won’t need to worry about operating any technology: I’ll do that.
 
 You *will* need to be conscious to talk into the microphones. Some of my microphones are very sensitive; you should try to avoid fidgeting in chairs, rustling papers and that sort of thing. 
 
 Try to avoid speaking directly into the microphone itself; you don’t need to do that as it’s powerful enough to pick up your voice but it sometimes can cause “popping” or other audio distortions if you get too close, or too direct[^1].
 
-[^1]: It’s not the end of the world if this happens though: I’ll be listening to the recording as it happens, so if I hear any odd background noise, audio distortion or anything else: we’ll just pause, and pick up again from the start of your or my last sentence.
-
 You will need to sit fairly still in front of the device, and speak at a consistent volume. You’ll need to be around 30cm to 70cm away from the device for the best sound, so it might be a bit cosy. 
+
+**If we are recording over the internet**, you will need to [read these instructions to join the recording using Zencastr](guest-guides/recording-over-the-internet).
 
 ## Style and tone
 
@@ -54,3 +54,6 @@ Once your episode has been published on the podcast feed, you can tell anyone yo
 ## Don’t get offended if we stop and start again
 
 I want you to sound your best; so please don’t get narked if I stop you and ask you to start again during the recording.
+
+
+[^1]: It’s not the end of the world if this happens though: I’ll be listening to the recording as it happens, so if I hear any odd background noise, audio distortion or anything else: we’ll just pause, and pick up again from the start of your or my last sentence.
