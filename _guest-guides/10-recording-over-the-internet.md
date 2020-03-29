@@ -37,30 +37,36 @@ Plug them in before you open the recording session in your browser to ensure the
 
 If you have one, use an external microphone. This will mean the sound-quality is better.
 
-## Joining the recording
+## The recording
+
+### Joining the recording
 
 You will receive a link to join the recording. 
 
 Open this in either Chrome, Firefox or Edge. 
 
-## Before starting the recording
+### Before starting the recording
 
 Close any other browser tabs and activate ‘Do Not Disturb’ mode if you can. This will mean fewer things interrupt the recording and avoid slowing down your computer.
 
 Put your phone and any other devices onto silent mode.
 
-## Starting the recording
+### Starting the recording
 
 I will control the start and end of the recording; so you won’t need to do anything else.
 
-## During the recording
+### During the recording
 
 Try to avoid shuffling papers or fiddling with the microphone during recording.
 
 If anyone on the recording needs to speak, click the ‘hand’ symbol on screen to ‘raise your hand’. This will indicate to the other people that you want to speak. The other person will ‘lower your hand’ to signal you can start to speak.
 
-## Ending the recording
+### Ending the recording
 
 I’ll let you know when I’ve stopped recording. 
 
 **Do not close your browser window, shut down your computer or let it go to sleep when recording finishes.** A high-quality copy of your recording will automatically upload from your computer so that I can edit it later. I’ll let you know when it’s safe to close your browser.
+
+### Guidance for guests from Zencastr
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/335330315" width="640" height="360" frameborder="0" allowfullscreen></iframe>
