@@ -2,6 +2,7 @@
 layout: post
 title: "Be a guest on the Department of Bad Ideas"
 excerpt: "If you can come up with bonkers solutions to silly problems, then you can be a guest on the Department of Bad Ideas."
+redirect_from: /be-a-guest
 ---
 
 At its most simple, the Department of Bad Ideas is a gameshow. That means that, for every episode, we need contestants. 
@@ -16,7 +17,7 @@ If there's a slot available on an upcoming episode, then you're hired!
 
 **You’ll need to be available for around 1 hour to record the episode.** This might be after work on a weekday, or on a weekend. We can schedule around your availability and mine.
 
-**As a contestant on the podcast, you’ll need to do a little bit of homework in advance.** You’ll need to prepare three, five-minute pitches ahead of the recording. You can present however you like, but remember it’s an audio podcast. You can [find more information about the format of the show in this blog post](/2019/01/30/introducing-department-of-bad-ideas/).
+**As a contestant on the podcast, you’ll need to do a little bit of homework in advance.** You’ll need to prepare three, five-minute pitches ahead of the recording. You can present however you like, but remember it’s an audio podcast. You can [find more information about the format of the show in this blog post](/posts/2019/01/30/introducing-department-of-bad-ideas/).
 
 **Appearing on the show is unpaid and voluntary**. I’m not making any money from producing this podcast at all, and so I can’t pay you either. This is just for fun. If that changes, then I’ll agree a fair amount for your time with you.
 
