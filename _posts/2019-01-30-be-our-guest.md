@@ -2,7 +2,9 @@
 layout: post
 title: "Be a guest on the Department of Bad Ideas"
 excerpt: "If you can come up with bonkers solutions to silly problems, then you can be a guest on the Department of Bad Ideas."
-redirect_from: /be-a-guest
+redirect_from: 
+- /be-a-guest
+- /be-a-guest/
 ---
 
 At its most simple, the Department of Bad Ideas is a gameshow. That means that, for every episode, we need contestants. 
