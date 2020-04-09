@@ -1,21 +1,8 @@
 ---
 layout: default
 ---
-<aside id="breadcrumbs" role="navigation">
-	<div class="container">
-		<p>
-			<span><a href="{{ site.url }}" title="Go to the home page">Home</a></span>
-			<span>❯</span>
-	{% if page.collection == 'posts' %}
-			<span><a href="{{ site.url | append: '/posts/' }}" title="Go to all blog posts">All blog posts</a></span>
-	{% elsif page.collection == 'episodes' %}
-			<span><a href="{{ site.url | append: '/episodes/' }}" title="Go to all episodes">All episodes</a></span>
-	{% elsif page.collection == 'guest-guides' %}
-			<span><a href="{{ site.url | append: '/guest-guides/' }}" title="Go to all guest-guides">All guest guides</a></span>
-	{% endif %}
-		</p>
-	</div>
-</aside>
+
+{% include breadcrumbs.html %}
 
 <article id="post--content">
 		
