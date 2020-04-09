@@ -34,8 +34,8 @@ explicit:       "no"
 type:           "serial" # 'serial' or 'episodic'
 
 lang:           "en"
-launch_date:	2019-01-01
-copyright:      "&#x2117; &amp; &#xA9; 2019"
+launch_date:	2020-04-01
+copyright:      "&#x2117; &amp; &#xA9; 2020"
 
 podcast-feed:			"https://badideas.podcast.johnpe.art/feed/podcast.rss"
 apple-podcasts-feed:	"https://pcr.apple.com/id1451459867"
@@ -89,6 +89,12 @@ collections:
       values:
         layout: episode
   guest-guides:
+    output: true
+    permalink: /:collection/:title/
+    defaults:
+      values:
+        layout: post
+  host-notes:
     output: true
     permalink: /:collection/:title/
     defaults:
