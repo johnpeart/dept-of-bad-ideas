@@ -47,7 +47,7 @@ Explain how this round is scored. Say something like:
 > 2. your idea *is* interesting
 > 3. your solution *is* original
 > 4. your solution *would* work
-> 5. and I *would* personally vote for it
+> 5. and I *would* personally vote for it”
 
 Mark the guest on a scale of `-5` to `+5` for each of these criteria.
 
