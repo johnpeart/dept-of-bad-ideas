@@ -43,6 +43,17 @@ layout: default
 			</li>			
 		{% endfor %}
 		</ul>
+		{% elsif page.title =="Host notes" %}
+		<ul>
+		{% for post in site.host-notes %}
+			<li class="loop--item">
+				<div class="loop--item--content">
+					<h2 class="item--content--title"><a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="loop--item-title--link">{{ post.title }}</a></h2>
+					<p class="item--content--excerpt">{{ post.excerpt }}</p>
+				</div>
+			</li>			
+		{% endfor %}
+		</ul>
 		{% endif %}
 
 	</div>
