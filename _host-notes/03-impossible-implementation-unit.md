@@ -10,7 +10,7 @@ For the first round, the guest will have been given a public policy problem ahea
 **For the first round only**, the solution to this problem needs to be:
 
 1. totally unrealistic and very difficult — if not impossible — to implement, and 
-2. something people would vote for even though it’s difficult. 
+2. something people would vote for even though it’s difficult 
 
 ## Explain how the first round works
 
