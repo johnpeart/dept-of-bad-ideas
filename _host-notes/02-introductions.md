@@ -44,9 +44,9 @@ Give a brief overview of the podcast episode structure, so people can follow alo
 Introduce the guest and let people get to know them a bit. Ease them into the podcast with a gentle (unmarked!) question. Say something like:
 
 > “I’m joined today by *[insert name here]*.
-> .
+> 
 > “Tell us a bit about what you do for a living.
-> .
+> 
 > “Before we start the contest itself, start by telling us about a *really* bad idea you’ve had recently.”
 
 To help them come up with the ‘bad idea you’ve had’, here are some prompts:
