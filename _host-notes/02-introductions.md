@@ -57,4 +57,4 @@ To help them come up with the ‘bad idea you’ve had’, here are some prompts
 
 ## Move on to Round 1
 
-Once this part of the podcast is finished, we’ll move on to round 1: [The Impossible Implementation Unit](/guest-guides/impossible-implementation-unit).
+Once this part of the podcast is finished, we’ll move on to round 1: [The Impossible Implementation Unit](/host-notes/impossible-implementation-unit).
