@@ -2,7 +2,7 @@
 layout: post
 title: The Big Idea
 excerpt: In The Big Idea, the guests get to pick any public policy problem you like and then they have 5 minutes to pitch the best solution they can come up with.
-permalink: guest-guides/the-big-idea
+permalink: host-notes/the-big-idea
 ---
 
 For the third round, the guest will choose their own public policy problem ahead of time. It might be a real problem or it might be a totally fictitious one. During recording, they have 5 minutes to pitch your solution to that problem. At the end of the presentation, the host will ask questions for a few minutes about the idea.
