@@ -12,11 +12,11 @@ For the second round, the guest will have been given a public policy problem ahe
 1. actually deliverable and preferably grounded in some evidence (if you can find any!), and
 2. something people would never vote for in a million years
 
-## Explain how the first round works
+## Explain how the second round works
 
 Introduce the *Unsaleable Policy Division* and explain what the guest has to do. Say something like:
 
-> “For our second round you’ll be taking up a role in our *Unsaleable Policy Division*. The job of this unit is to come up with solutions that might actually work that people would never vote for in a million years.
+> “For our second round you’ll be taking up a role in our *Unsaleable Policy Division*. The job of this unit is to come up with solutions that might actually work but that people would never vote for in a million years.
 > 
 > “You’ve been given a policy problem in advance of us recording today’s episode and you were asked to prepare a 5 minute presentation about how you would solve that problem.”
 
@@ -44,8 +44,8 @@ Explain how this round is scored. Say something like:
 > 
 > “You get high marks if:
 > 1. your presentation is *good*
-> 2. your idea *is* original
-> 3. your idea *would* work
+> 2. your solution *is* original
+> 3. your solution *would* work
 > 4. and I *wouldn’t* personally vote for it
 
 Mark the guest on a scale of `-5` to `+5` for each of these criteria.
