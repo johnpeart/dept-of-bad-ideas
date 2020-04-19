@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Pre-flight checklist"
+title: Pre-flight checklist
 excerpt: "A quick checklist of things to check before recording an episode of the Department of Bad Ideas."
 permalink: host-notes/checklist
 ---
