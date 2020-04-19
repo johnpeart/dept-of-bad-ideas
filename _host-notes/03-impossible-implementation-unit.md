@@ -42,11 +42,11 @@ Explain how this round is scored. Say something like:
 
 > “Time for your scores. In the *Impossible Implementation Unit*, employees get marked in four areas: presentation, originality, practicality and electoral viability.
 > 
-> “You get high marks if:\
-> 1. your presentation is *good*\
-> 2. your idea *is* original\
-> 3. your idea *won’t* work\
-> 4. and I *would* personally vote for it.
+> “You get high marks if:
+> 1. your presentation is *good*
+> 2. your idea *is* original
+> 3. your idea *won’t* work
+> 4. and I *would* personally vote for it
 
 Mark the guest on a scale of `-5` to `+5` for each of these criteria.
 
