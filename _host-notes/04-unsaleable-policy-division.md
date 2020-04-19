@@ -2,7 +2,7 @@
 layout: post
 title: The Unsaleable Policy Division
 excerpt: In the Unsaleable Policy Division, the guests have 5 minutes to pitch a solution to a real or fictional public policy problem that would fix the problem but that no one would would vote for.
-permalink: guest-guides/unsaleable-policy-division
+permalink: host-notes/unsaleable-policy-division
 ---
 
 For the second round, the guest will have been given a public policy problem ahead of time. It might be a real problem or it might be a totally fictitious one. During recording, they have 5 minutes to pitch your solution to that problem. At the end of the presentation, the host will ask questions for a few minutes about the idea.
