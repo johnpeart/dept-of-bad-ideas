@@ -23,18 +23,10 @@ Here’s an idea of the kinds of things that might come up:
 
 ## Scoring 
 
-In this round, you can’t lose points but there are lots of bonus points available.
+The scoring for this round works a little differently. You will be asked to respond to 4 problems in the quick fire round.
 
-You will be scored on the following criteria:
+You gain a point for each second that you keep talking without hesitation or repeating yourself, up to 60 additional points per problem.
 
-- how good your presentation is
-- the originality of the solution
+You can gain up to an additional 10 points for each problem if you come up with an interesting, funny, or very practical solution to the problems you’re presented with
 
-Each of these criteria are scored on a scale of 0 to +5 points.
-
-In this round, you will gain points if:
-
-- your presentation is good
-- you come up with an interesting, funny, or very practical solution to the problems you’re presented with
-
-You gain an additional point for each second that you keep talking without hesitating or repeating yourself, up to 60 additional points per problem.
+There are 280 points available in this round.

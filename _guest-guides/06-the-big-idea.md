@@ -26,7 +26,7 @@ Once you have finished your presentation, I will give you a score. You will be s
 - how practical the solution is
 - whether I would personally vote for it
 
-Each of these criteria are scored on a scale of -5 to +5 points. 
+Each of these criteria are scored on a scale of 0 to 10 points. There are 50 points available in this round.
 
 In this round, you will gain points if:
 

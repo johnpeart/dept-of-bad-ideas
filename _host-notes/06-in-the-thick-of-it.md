@@ -19,7 +19,9 @@ Introduce *In the Thick of It* to the guest and explain how it works. Say someth
 
 Explain how the scoring works for this round. Say something like:
 
-> “For every second you keep talking without hesitation or repetition, you gain a point. You get up to 10 extra points if your solution is either very funny, very practical or very original.
+> “For every second you keep talking without hesitation or repetition, you gain a point. 
+> 
+> “You get up to 10 extra points for each question if your solution is either very funny, very practical or very original.
 > 
 > “You’ll be asked to solve four problems, meaning there are up to 280 points on offer in this round.”
 

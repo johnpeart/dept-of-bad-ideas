@@ -48,7 +48,7 @@ Explain how this round is scored. Say something like:
 > 3. your solution *won’t* work
 > 4. and I *would* personally vote for it
 
-Mark the guest on a scale of `-5` to `+5` for each of these criteria.
+Mark the guest on a scale of 0 to 10 for each of these criteria. There are 40 points available in this round.
 
 ## Move on to Round 2
 
