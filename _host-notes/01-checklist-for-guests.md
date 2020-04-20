@@ -37,7 +37,7 @@ You should have at least 4 questions ready for the *In the Thick of It* round.
 
 **Prepared for the Impossible Implementation round**. 
 
-They will have been given a policy problem to solve ahead of time. The solution to this problem must be impossible to implement but very electorally attractive. Check they have prepared a 5 minute presentation for this round and that it meets the criteria.
+They will have been given a policy problem to solve ahead of time. The solution to this problem must be impossible to implement but very electorally attractive. Check they have prepared a solution for this round and that it meets the criteria.
 
 [Find out more about Round 1](/guest-guides/impossible-implementation-unit)
 
@@ -45,7 +45,7 @@ They will have been given a policy problem to solve ahead of time. The solution 
 
 **Prepared for the Unsaleable Policy round**. 
 
-They will have been given another policy problem to solve ahead of time. The solution to their problem must be workable but politically unattractive. Check they have prepared a 5 minute presentation for this round and that it meets the criteria.
+They will have been given another policy problem to solve ahead of time. The solution to their problem must be workable but politically unattractive. Check they have prepared a solution for this round and that it meets the criteria.
 
 [Find out more about Round 2](/guest-guides/unsaleable-policy-division)
 
@@ -53,7 +53,7 @@ They will have been given another policy problem to solve ahead of time. The sol
 
 **Prepared their Big Idea**. 
 
-They should have picked any policy problem they wanted, and prepared a 5 minute pitch to solve the problem. The solution must be the biggest, boldest, best solution they could come up with. Check they have prepared a 5 minute presentation for this round and that it meets the criteria.
+They should have picked any policy problem they wanted, and prepared a 5 minute pitch to solve the problem. The solution must be the biggest, boldest, best solution they could come up with. Check they have prepared a solution for this round and that it meets the criteria.
 
 [Find out more about Round 3](/guest-guides/the-big-idea)
 
