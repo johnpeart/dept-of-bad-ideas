@@ -24,7 +24,17 @@ Introduce *the Big Idea* and explain what the guest has to do. Say something lik
 
 As the guest to explain their problem. Say something like:
 
+> “In this round you get bonus points for picking an interesting, challenging or funny problem.
+> 
 > “What is the problem you’ve decided to fix?”
+
+## Scoring the problem
+
+Give the guest a score for the problem. Points are awarded for interesting problems: whether they be difficult, intriguing, funny or something else. Say something like:
+
+> “*[react to the problem they’ve chosen]*.
+> 
+> “*[insert points here]* points for that problem, bringing your total so far to *[insert running total]*.”
 
 ## Guest presentation 
 
@@ -40,16 +50,18 @@ When the guest has finished presenting, ask them some follow up questions for a 
 
 Explain how this round is scored. Say something like:
 
-> “Time for your scores. For your big idea, you get marked in five areas: presentation, idea, originality, practicality and electoral viability.
+> “Time for your scores. You already have *[insert points for the first criteria]* points for picking an interesting idea.
+> 
+> “For this round, you also get marks in the same four areas as before: presentation, originality, practicality and electoral viability.
 > 
 > “You get high marks if:
-> 1. your presentation is *good*
-> 2. your idea *is* interesting
+> 1. the problem you are going to solve is interesting
+> 2. your presentation is *good*
 > 3. your solution *is* original
 > 4. your solution *would* work
 > 5. and I *would* personally vote for it”
 
-Mark the guest on a scale of 0 to 10 for each of these criteria. There are 50 points available in this round.
+Mark the guest on a scale of 0 to 10 for each of these criteria. Including the bonus points, there are 50 points available in this round.
 
 ## Move on to Round 4
 
