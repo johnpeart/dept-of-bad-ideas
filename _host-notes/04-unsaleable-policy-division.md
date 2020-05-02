@@ -18,23 +18,27 @@ Introduce the *Unsaleable Policy Division* and explain what the guest has to do.
 
 > “For our second round you’ll be taking up a role in our *Unsaleable Policy Division*. The job of this unit is to come up with solutions that might actually work but that people would never vote for in a million years.
 > 
-> “You’ve been given a policy problem in advance of us recording today’s episode and you were asked to prepare a 5 minute presentation about how you would solve that problem.”
+> “You’ve been given a policy problem in advance of us recording today’s episode and you were asked to prepare a presentation about how you would solve that problem.”
 
 ## Explain the policy problem
 
 Tell listeners what the problem is that the guest has been asked to solve. Say something like:
 
-> “The problem you’ve been asked to solve is: *[read out the problem]*
+> “What was the problem you’ve been asked to solve?”
+
+## Ask them for context and an elevator pitch
+
+Start the conversation asking for some context and their elevator pitch, so that you can structure their time for them. Say something like:
+
+> “Why don’t you start off by giving us some context to this problem?
 > 
-> “Are you ready to pitch your solution?”
+> […]
+> 
+> “OK. So in a few sentences, give us an overview of your solution. What’s you elevator pitch?”
 
 ## Guest presentation 
 
 The guest will present for 5 minutes.
-
-## Follow up questions
-
-When the guest has finished presenting, ask them some follow up questions for a few minutes to clarify content of their idea, or just to draw out anything interesting or funny.
 
 ## Scoring
 

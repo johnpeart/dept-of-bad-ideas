@@ -18,7 +18,7 @@ Introduce *the Big Idea* and explain what the guest has to do. Say something lik
 
 > “For our third round you’ll be pitching *The Big Idea*. Your job is to come up with solutions that might actually work and that people would actually vote for.
 > 
-> “You’ve chosen your own problem to solve and you were asked to prepare a 5 minute presentation about how you would solve that problem.”
+> “You’ve chosen your own problem to solve and you were asked to prepare a pitch explaining how you would solve that problem.”
 
 ## Ask what their idea is
 
@@ -36,15 +36,21 @@ Give the guest a score for the problem. Points are awarded for interesting probl
 > 
 > “*[insert points here]* points for that problem, bringing your total so far to *[insert running total]*.”
 
+## Ask them for context and an elevator pitch
+
+Start the conversation asking for some context and their elevator pitch, so that you can structure their time for them. Say something like:
+
+> “Why don’t you start off by giving us some context to this problem?
+> 
+> […]
+> 
+> “OK. So in a few sentences, give us an overview of your solution. What’s you elevator pitch?”
+
 ## Guest presentation 
 
 Invite the guest to present their solution.
 
 The guest will present for 5 minutes.
-
-## Follow up questions
-
-When the guest has finished presenting, ask them some follow up questions for a few minutes to clarify content of their idea, or just to draw out anything interesting or funny.
 
 ## Scoring
 
@@ -55,11 +61,10 @@ Explain how this round is scored. Say something like:
 > “For this round, you also get marks in the same four areas as before: presentation, originality, practicality and electoral viability.
 > 
 > “You get high marks if:
-> 1. the problem you are going to solve is interesting
-> 2. your presentation is *good*
-> 3. your solution *is* original
-> 4. your solution *would* work
-> 5. and I *would* personally vote for it”
+> 1. your presentation is *good*
+> 2. your solution *is* original
+> 3. your solution *would* work
+> 4. and I *would* personally vote for it”
 
 Mark the guest on a scale of 0 to 10 for each of these criteria. Including the bonus points, there are 50 points available in this round.
 
