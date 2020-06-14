@@ -48,14 +48,13 @@
 	<meta property="og:image" 			content="{% if page.image %}{{ page.image | prepend: site.post-images-path | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.social-media-image | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}{% endif %}" />
 	<meta property="og:site_name" content="{{ site.title }}" />
 
-	<!-- Touch Icons -->
-	<link rel="icon" href="{{ site.touch | prepend: site.baseurl | prepend: site.url }}">
-	<link rel="apple-touch-icon" href="{{ site.touch | prepend: site.baseurl | prepend: site.url }}">
-
-	<!-- Pinned Site -->
-	<link rel="mask-icon" href="{{ site.pinned | prepend: site.image-path | prepend: site.asset-path | prepend: site.baseurl | prepend: site.url }}" color="{{ site.pinned-colour }}">
-	<meta name="theme-color" content="{{ site.pinned-colour }}">
-
+	<!-- Favicons -->
+	<!-- Place favicon.ico in the root directory - no tag necessary -->
+	<meta name="theme-color" content="{{ site.theme-colour }}">
+	<link rel="icon" href="{{ site.url | append: site.baseurl | append: site.favicon-svg }}">
+	<link rel="mask-icon" href="{{ site.url | append: site.baseurl | append: site.favicon-pinned-svg }}" color="{{ site.theme-colour }}">
+	<link rel="apple-touch-icon" href="{{ site.url | append: site.baseurl | append: site.favicon-large-png }}">
+	
 	<!-- Google site verification -->
 	<meta name="google-site-verification" content="{{ site.google-site-verification }}">
 
