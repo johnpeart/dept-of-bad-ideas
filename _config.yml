@@ -53,14 +53,14 @@ js-path: "/assets/scripts"
 # Artwork
 
 podcast-artwork: "/podcast/itunes-3000.png"
-social-media-image: "/site/social-media.png"
+social-media-image: "/assets/images/site/social-media.png"
 
-touch: "/assets/images/site/touch.png"
-pinned: "/assets/images/site/pinned.svg"
-pinned-colour: "#FFD700"
-logo-favicon-small: "/assets/images/site/favicon-16x16.png"
-logo-favicon-medium: "/assets/images/site/favicon-32x32.png"
-logo-favicon-large: "/assets/images/site/favicon-96x96.png"
+theme-colour: "#007aff"
+
+favicon: "/favicon.ico"
+favicon-svg: "/assets/images/site/favicon.svg"
+favicon-pinned-svg: "/assets/images/site/favicon-pinned-svg.svg"
+favicon-large-png: "/assets/images/site/favicon-large-png.png"
 
 #Analytics
 google-site-verification: "DaqGCZ6cZIqm7q_nVSnOzjJmFFjbRfW2X7FDzpQDQZk"
