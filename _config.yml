@@ -55,7 +55,7 @@ js-path: "/assets/scripts"
 podcast-artwork: "/podcast/itunes-3000.png"
 social-media-image: "/assets/images/site/social-media.png"
 
-theme-colour: "#007aff"
+theme-colour: "#FFD700"
 
 favicon: "/favicon.ico"
 favicon-svg: "/assets/images/site/favicon.svg"
