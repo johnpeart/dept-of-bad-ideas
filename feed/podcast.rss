@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en">
+	<channel>
+		<atom:link href="https://badideas.podcast.johnpe.art/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Department of Bad Ideas</title>
+		<description>The Department of Bad Ideas is a podcast about policy, disconnected from reality.
+In each episode, our guests tell us how they'd fix public policy problems in the most impractical, unpalatable and impossible ways.
+Each episode of the Department of Bad Ideas consists of four rounds.
+1. The first round is the “Impossible Implementation Unit”. Our guests have 5 minutes to pitch the solution to a policy problem they're given ahead of time. The problem could be anything from the ridiculous to the real: like preparing for an alien invasion, or solving a shortage of teachers in schools. Their solution has to be entirely impossible to implement, but so attractive that everyone would want to do it that way.
+2. The second round is the “Unsaleable Policy Division”. Our guests are given another policy problem ahead of time, and they'll have another 5 minutes each to pitch their solution. This time the idea has to be brilliantly practical, but political kryptonite. It has to be so unpalatable that any senior official or minister would recoil in horror at the very idea of fixing that problem with that particular solution.
+3. The third round is a chance to pitch the “The Big Idea”. Our guests get 5 minutes to pitch a totally original idea to solve any problem they like. It doesn't matter how ridiculous the problem is; they just have to pitch the biggest, boldest, best solution they have to fix it.
+4. The final, bonus round is “In the Thick of It”. Instead of prepreared pitches to known problems, our guests will take part in an unscripted quick fire round. We’ll give our guests a series of policy problems, and they have to describe a solution to it on the fly for a minute.
+Throughout the episode, points are awarded for originality, presentation, practicality and political attractiveness. In the final round, additional points are awarded for each second the guest speaks without repetition or hesitation.</description>
+		<link>https://badideas.podcast.johnpe.art</link>
+		<language>en</language>
+		<managingEditor>podcast@johnpe.art (John Peart)</managingEditor>
+		<webMaster>podcast@johnpe.art (John Peart)</webMaster>
+		<copyright>2020 Department of Bad Ideas</copyright>
+		<pubDate>Mon, 28 Dec 2020 00:36:30 +0000</pubDate>
+		<lastBuildDate>Mon, 28 Dec 2020 00:36:30 +0000</lastBuildDate>
+		<image>
+			<link>https://badideas.podcast.johnpe.art</link>
+			<url>https://badideas.podcast.johnpe.art/assets/images/podcast/itunes-3000.png</url>
+			<title>Department of Bad Ideas</title>
+		</image>
+		<itunes:subtitle>The Department of Bad Ideas is a podcast and gameshow about policy, disconnected from reality.</itunes:subtitle>
+		<itunes:author>John Peart</itunes:author>
+		<itunes:summary>The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, our guests tell us how they'd fix public policy problems in the most impractical, unpalatable and impossible ways.</itunes:summary>
+		<itunes:keywords>comedy, personal blog, government, politics, bad ideas, podofbadideas, department of bad ideas, dept of bad ideas</itunes:keywords>
+		<itunes:owner>
+			<itunes:name>John Peart</itunes:name>
+			<itunes:email>podcast@johnpe.art</itunes:email>
+		</itunes:owner>
+		<itunes:image href="https://badideas.podcast.johnpe.art/assets/images/podcast/itunes-3000.png" />
+
+		<itunes:category text="Society &amp; Culture">
+			<itunes:category text="Personal Journals" />
+		</itunes:category>
+		<itunes:category text="Government &amp; Organizations" />
+		<itunes:category text="Comedy" />
+		
+		<itunes:explicit>no</itunes:explicit>
+		
+		<itunes:type>serial</itunes:type>÷
+
+		
+		
+
+		<item>
+			<title>Preview: So what’s this all about then?</title>
+			<link>https://badideas.podcast.johnpe.art/episodes/00-01-podcast-preview/</link>
+			<pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+			<itunes:episodeType>trailer</itunes:episodeType>
+			
+			<description>The Department of Bad Ideas is a podcast about policy, disconnected from reality.
+In each episode, our guests take on the challenge of solving real and fictitious policy problems in the most unsaleable, impractical and impossible ways.
+In this short preview episode, we explain what you can expect when the Department opens its doors later this year
+00:00 — Opening theme music
+00:40 — Hello there
+03:40 — Become a contestant
+04:19 — Closing music
+04:38 — End</description>
+			<guid isPermaLink="true">https://badideas.podcast.johnpe.art/episodes/00-01-podcast-preview/</guid>
+			<enclosure url="https://s3.eu-west-2.amazonaws.com/episodes.johnpe.art/dept-of-bad-ideas/00-00-department-of-bad-ideas-preview-episode.m4a" length="5601463" type="audio/x-m4a"/>
+			<itunes:author>John Peart</itunes:author>
+			<itunes:subtitle>This is the Department of Bad Ideas. Except it isn’t. Not yet, anyway.</itunes:subtitle>
+			<itunes:summary>The Department of Bad Ideas is a podcast about policy, disconnected from reality. In each episode, our guests take on the challenge of solving real and fictitious policy problems in the most unsaleable, impractical and impossible ways.  In this short preview episode, we explain what you can expect when the Department opens its doors later this year.</itunes:summary>
+			<description></description>
+			<itunes:duration>04:38</itunes:duration>
+			<itunes:keywords></itunes:keywords>
+			
+			<itunes:image href="https://badideas.podcast.johnpe.art/assets/images/podcast/itunes-3000.png" />
+			
+			<itunes:explicit>no</itunes:explicit>
+			<itunes:block>no</itunes:block>
+		</item>
+			
+		
+
+	</channel>
+</rss>

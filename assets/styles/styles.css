@@ -1,0 +1,634 @@
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain) */
+@import url("https://fonts.googleapis.com/css?family=Bitter:400,700");
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, table tfoot, table thead, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.container { display: block; position: relative; padding-left: 15px; padding-right: 15px; padding-top: 0; padding-bottom: 0; width: 100%; margin-left: auto; margin-right: auto; }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { .container { max-width: 560px !important; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { .container { max-width: 660px !important; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { .container { max-width: 900px !important; } }
+
+@media only screen and (min-width: 1200px) { .container { max-width: 1100px !important; } }
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; }
+
+.skip-link { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; display: block; width: 100%; padding: 10px; text-align: center; }
+
+.skip-link:active, .skip-link:focus { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; }
+
+.skip-link:focus, .skip-link:hover { background: #000000; color: #FFD700; }
+
+@-ms-viewport { width: device-width; }
+
+*, *::before, *::after { box-sizing: border-box; -webkit-font-smoothing: antialiased; letter-spacing: normal; -webkit-appearance: none; -webkit-border-radius: 0; }
+
+html { -ms-overflow-style: scrollbar; background: #000000; }
+
+html, body { background: #000000; font-family: "Bitter", -apple-system, "Helvetica Neue", "Helvetica", BlinkMacSystemFont, Roboto, "Segoe UI", Arial, sans-serif; padding: 0; margin: 0; }
+
+main { background: #ffffff; }
+
+hr { border: none; height: 3px; background: #FFD700; margin: 30px 0 45px 0; }
+
+a { display: inline; color: #000000; text-decoration: underline; text-decoration-skip: ink; text-decoration-skip-ink: auto; outline: none; font-weight: inherit; /* Text and background color for dark mode */ }
+
+a:hover, a:focus { color: #ffffff; background: #000000; text-decoration: underline; text-decoration-skip: ink; text-decoration-skip-ink: auto; outline: 3px solid #000000; text-decoration: none; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+h1 { font-weight: bold; }
+
+@media only screen and (max-width: 599px) { h1 { font-size: 29.7px; line-height: 32.4px; padding-top: 59.4px; padding-bottom: 29.7px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h1 { font-size: 22.5px; line-height: 28.125px; padding-top: 45px; padding-bottom: 22.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h1 { font-size: 25.2px; line-height: 31.5px; padding-top: 50.4px; padding-bottom: 25.2px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h1 { font-size: 33px; line-height: 41.25px; padding-top: 66px; padding-bottom: 33px; } }
+
+@media only screen and (min-width: 1200px) { h1 { font-size: 41.6px; line-height: 52px; padding-top: 83.2px; padding-bottom: 41.6px; } }
+
+h2 { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; }
+
+@media only screen and (max-width: 599px) { h2 { font-size: 23px; line-height: 39.1px; padding-top: 46px; padding-bottom: 23px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2 { font-size: 28px; line-height: 47.6px; padding-top: 56px; padding-bottom: 28px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2 { font-size: 28px; line-height: 42px; padding-top: 56px; padding-bottom: 28px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2 { font-size: 32px; line-height: 48px; padding-top: 64px; padding-bottom: 32px; } }
+
+@media only screen and (min-width: 1200px) { h2 { font-size: 36px; line-height: 54px; padding-top: 72px; padding-bottom: 36px; } }
+
+h3 { font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; }
+
+@media only screen and (max-width: 599px) { h3 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h3 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h3 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h3 { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+
+@media only screen and (min-width: 1200px) { h3 { font-size: 26px; line-height: 35px; padding-top: 26px; padding-bottom: 8.6666666667px; } }
+
+@media only screen and (max-width: 599px) { h2 + h3 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h2 + h3 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h2 + h3 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h2 + h3 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 1200px) { h2 + h3 { padding-top: 0 !important; } }
+
+h4 { font-weight: bold; font-style: italic; text-align: left; text-decoration: none; text-transform: none; }
+
+@media only screen and (max-width: 599px) { h4 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 9px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h4 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 9px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h4 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 9px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h4 { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 11px; } }
+
+@media only screen and (min-width: 1200px) { h4 { font-size: 26px; line-height: 32.5px; padding-top: 26px; padding-bottom: 13px; } }
+
+h3 + h4 { margin: 0; }
+
+@media only screen and (max-width: 599px) { h3 + h4 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h3 + h4 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h3 + h4 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h3 + h4 { padding-top: 0 !important; } }
+
+@media only screen and (min-width: 1200px) { h3 + h4 { padding-top: 0 !important; } }
+
+h5 { font-weight: bold; }
+
+@media only screen and (max-width: 599px) { h5 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { h5 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { h5 { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { h5 { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 22px; } }
+
+@media only screen and (min-width: 1200px) { h5 { font-size: 26px; line-height: 32.5px; padding-top: 26px; padding-bottom: 26px; } }
+
+p { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; font-weight: normal; }
+
+@media only screen and (max-width: 599px) { p { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { p { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { p { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { p { font-size: 22px; line-height: 29.3333333333px; padding-bottom: 16.5px; } }
+
+@media only screen and (min-width: 1200px) { p { font-size: 26px; line-height: 34.6666666667px; padding-bottom: 19.5px; } }
+
+p span.small-caps { font-variant: small-caps !important; font-size: 120%; }
+
+sup { font-feature-settings: "ss02", "tnum", "liga", "zero", "kern", "frac"; text-decoration: none; margin-left: 2px; }
+
+sup a { text-decoration: none; }
+
+sup a:hover, sup a:focus { text-decoration: none; }
+
+strong, table tfoot, table thead, b { font-weight: bold; }
+
+em, i { font-style: italic; }
+
+u { text-decoration: underline; }
+
+center { text-align: center; }
+
+li { font-size: 18px; line-height: 24px; font-weight: normal; }
+
+@media only screen and (max-width: 599px) { li { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { li { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { li { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { li { font-size: 22px; line-height: 29.3333333333px; padding-bottom: 16.5px; } }
+
+@media only screen and (min-width: 1200px) { li { font-size: 26px; line-height: 34.6666666667px; padding-bottom: 19.5px; } }
+
+ul { list-style-type: disc; padding-left: 54px; }
+
+@media only screen and (max-width: 599px) { ul { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { ul { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { ul { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { ul { padding-top: 22px; padding-bottom: 44px; } }
+
+@media only screen and (min-width: 1200px) { ul { padding-top: 26px; padding-bottom: 52px; } }
+
+ol { padding-left: 54px; list-style: decimal; }
+
+@media only screen and (max-width: 599px) { ol { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { ol { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { ol { padding-top: 18px; padding-bottom: 36px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { ol { padding-top: 22px; padding-bottom: 44px; } }
+
+@media only screen and (min-width: 1200px) { ol { padding-top: 26px; padding-bottom: 52px; } }
+
+blockquote { background: #e9ecef; /* Text and background color for dark mode */ padding: 20px; margin-top: 0; }
+
+@media only screen and (max-width: 599px) { blockquote { margin-bottom: 27px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { blockquote { margin-bottom: 27px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { blockquote { margin-bottom: 27px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { blockquote { margin-bottom: 33px; } }
+
+@media only screen and (min-width: 1200px) { blockquote { margin-bottom: 39px; } }
+
+blockquote p:first-child { padding-top: 0; }
+
+blockquote p:last-child { padding-bottom: 0; }
+
+blockquote ul { padding-left: 27px; }
+
+blockquote ol { padding-left: 45px; }
+
+blockquote ol:last-child { padding-bottom: 0; }
+
+blockquote p ~ ol, blockquote p ~ ul { margin-top: -18px; padding-bottom: 9px; }
+
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+
+@media only screen and (max-width: 599px) { table { font-size: 18px; line-height: 24px; margin-bottom: 18px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { table { font-size: 18px; line-height: 24px; margin-bottom: 18px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { table { font-size: 18px; line-height: 24px; margin-bottom: 18px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { table { font-size: 22px; line-height: 29.3333333333px; margin-bottom: 22px; } }
+
+@media only screen and (min-width: 1200px) { table { font-size: 26px; line-height: 34.6666666667px; margin-bottom: 26px; } }
+
+table thead { text-align: left; border-bottom: 1px solid #000000; /* Text and background color for dark mode */ }
+
+table tfoot { text-align: left; border-top: 1px solid #000000; /* Text and background color for dark mode */ }
+
+table tr { border-bottom: 1px solid #e9ecef; }
+
+table tr:last-child { border-bottom: none !important; }
+
+table th, table td { padding: 5px 10px; vertical-align: top; border-left: 1px solid #e9ecef; }
+
+table th:first-child, table td:first-child { border-left: none; }
+
+a.reversefootnote { text-decoration: none; font-family: "Bitter", -apple-system, "Helvetica Neue", "Helvetica", BlinkMacSystemFont, Roboto, "Segoe UI", Arial, sans-serif !important; }
+
+header#site-title { display: block; position: relative; background: #FFD700; padding: 30px 0; width: 100%; }
+
+@media only screen and (min-width: 766px) { header#site-title { padding: 60px 0; } }
+
+header#site-title a#header--site-logo { position: relative; display: inline-block; color: #000000; }
+
+header#site-title a#header--site-logo:hover, header#site-title a#header--site-logo:focus { color: #000000; background: none; text-decoration-skip: ink; text-decoration-skip-ink: auto; outline: none; }
+
+header#site-title a#header--site-logo:hover h1, header#site-title a#header--site-logo:focus h1 { text-decoration: underline !important; }
+
+header#site-title a#header--site-logo img.header--site-logo--logo { position: relative; display: inline-block; float: left; }
+
+@media only screen and (max-width: 999px) { header#site-title a#header--site-logo img.header--site-logo--logo { max-height: 60px; margin-right: 13px; } }
+
+@media only screen and (min-width: 1000px) { header#site-title a#header--site-logo img.header--site-logo--logo { max-height: 100px; margin-right: 25px; } }
+
+header#site-title a#header--site-logo h1.header--site-logo--title { position: relative; display: inline; padding: 0; float: left; }
+
+@media only screen and (max-width: 999px) { header#site-title a#header--site-logo h1.header--site-logo--title { margin: -10px 0 0 0; font-size: 30px; line-height: 40px; } }
+
+@media only screen and (min-width: 1000px) { header#site-title a#header--site-logo h1.header--site-logo--title { margin: -13px 0 0 0; font-size: 55px; line-height: 60px; } }
+
+header#site-title a#header--site-logo h1.header--site-logo--title span.header--site-title--newline { display: block; }
+
+footer#footer--site-footer { display: block; position: relative; background: #000000; color: #FFD700 !important; min-height: 200px; width: 100%; padding-top: 100px; padding-bottom: 60px; }
+
+footer#footer--site-footer div.container::after { content: ""; clear: both; display: table; }
+
+footer#footer--site-footer div#footer--site-logo { position: relative; display: inline-block; }
+
+@media only screen and (max-width: 765px) { footer#footer--site-footer div#footer--site-logo { margin-bottom: 20px; } }
+
+@media only screen and (min-width: 766px) { footer#footer--site-footer div#footer--site-logo { float: left; } }
+
+footer#footer--site-footer div#footer--site-logo::after { content: ""; clear: both; display: table; }
+
+footer#footer--site-footer div#footer--site-logo img.footer--site-logo--logo { position: relative; display: inline-block; float: left; }
+
+@media only screen and (max-width: 765px) { footer#footer--site-footer div#footer--site-logo img.footer--site-logo--logo { max-height: 40px; margin-right: 20px; } }
+
+@media only screen and (min-width: 766px) { footer#footer--site-footer div#footer--site-logo img.footer--site-logo--logo { max-height: 60px; margin-right: 20px; } }
+
+footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text { position: relative; display: inline-block; padding: 0; float: left; }
+
+footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text h1, footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p, footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text a { color: #FFD700; }
+
+@media only screen and (max-width: 765px) { footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text h1.footer--site-footer--title { padding: 0 0 0 0; margin: -5px 0 0 0; font-size: 20px; line-height: 25px; } }
+
+@media only screen and (min-width: 766px) { footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text h1.footer--site-footer--title { margin: -7px 0 0 0; padding: 0; font-size: 35px; line-height: 35px; } }
+
+footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author { color: #ffffff !important; }
+
+@media only screen and (max-width: 765px) { footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author { font-size: 15px; line-height: 15px; padding: 7px 0 0 0; } }
+
+@media only screen and (min-width: 766px) { footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author { font-size: 20px; line-height: 20px; padding: 10px 0 0 0; } }
+
+footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author a { color: #ffffff !important; }
+
+footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author a:focus, footer#footer--site-footer div#footer--site-logo div.footer--site-logo--text p.footer--site-footer--author a:hover { color: #FFD700 !important; }
+
+main.loop h1#page--content--title { font-size: 27px; line-height: 32.4px; padding-top: 27px; }
+
+@media only screen and (max-width: 599px) { main.loop h1#page--content--title { font-size: 29.7px; line-height: 32.4px; padding-top: 29.7px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.loop h1#page--content--title { font-size: 22.5px; line-height: 28.125px; padding-top: 22.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.loop h1#page--content--title { font-size: 31.5px; line-height: 39.375px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.loop h1#page--content--title { font-size: 41.25px; line-height: 51.5625px; padding-top: 33px; } }
+
+@media only screen and (min-width: 1200px) { main.loop h1#page--content--title { font-size: 52px; line-height: 65px; padding-top: 41.6px; } }
+
+@media only screen and (max-width: 765px) { main.loop section { padding: 30px 0 50px 0; } }
+
+@media only screen and (min-width: 766px) { main.loop section { padding: 30px 0 75px 0; } }
+
+main.loop ul { list-style: none; padding: 0; }
+
+main.loop ul li.loop--item { padding: 0; margin: 0; border-bottom: 1px solid #000000; }
+
+main.loop ul li.loop--item::after { content: ""; clear: both; display: table; }
+
+main.loop ul li.loop--item:last-of-type { border-bottom: none; }
+
+main.loop ul li.loop--item div.loop--item--content { display: inline-block; position: relative; float: left; }
+
+main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 23px; line-height: 39.1px; padding-top: 23px; padding: 5px 0 0 0; margin: 0; }
+
+@media only screen and (max-width: 599px) { main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 23px; line-height: 39.1px; padding-top: 23px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 28px; line-height: 47.6px; padding-top: 28px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 28px; line-height: 42px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 32px; line-height: 48px; padding-top: 32px; } }
+
+@media only screen and (min-width: 1200px) { main.loop ul li.loop--item div.loop--item--content h2.item--content--title { font-size: 36px; line-height: 54px; padding-top: 36px; } }
+
+main.loop ul li.loop--item div.loop--item--content h2.item--content--title a { text-decoration: underline; }
+
+main.loop ul li.loop--item div.loop--item--content h2.item--content--title a:hover, main.loop ul li.loop--item div.loop--item--content h2.item--content--title a:focus { background: #000000; color: #FFD700; text-decoration: none; outline: 3px solid #000000; }
+
+main.loop ul li.loop--item div.loop--item--content p.item--content--metadata { margin: 10px 0 0 0; padding-bottom: 0; }
+
+main.loop ul li.loop--item div.loop--item--content p.item--content--metadata strong, main.loop ul li.loop--item div.loop--item--content p.item--content--metadata table thead, table main.loop ul li.loop--item div.loop--item--content p.item--content--metadata thead, main.loop ul li.loop--item div.loop--item--content p.item--content--metadata table tfoot, table main.loop ul li.loop--item div.loop--item--content p.item--content--metadata tfoot { margin-right: 15px; }
+
+main.loop ul li.loop--item div.loop--item--content p.item--content--excerpt { margin-top: 1rem; margin-bottom: 1rem !important; }
+
+main.loop aside { background: #FFD700; color: #000000; }
+
+@media only screen and (max-width: 765px) { main.loop aside { padding: 50px 0; } }
+
+@media only screen and (min-width: 766px) { main.loop aside { padding: 75px 0; } }
+
+main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { display: inline; background: #000000; color: #FFD700; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+@media only screen and (max-width: 599px) { main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { padding: 3px 10px; } }
+
+@media only screen and (min-width: 1200px) { main.loop aside h2 strong, main.loop aside h2 table thead, table main.loop aside h2 thead, main.loop aside h2 table tfoot, table main.loop aside h2 tfoot { padding: 3px 15px; } }
+
+main.loop aside h2:first-child { padding-top: 0; }
+
+main.loop aside p:last-child { padding-bottom: 0; }
+
+main.loop aside a { text-decoration: underline; }
+
+main.loop aside a:hover, main.loop aside a:focus { color: #ffffff; background: #000000; outline: 3px solid #000000; text-decoration: none; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+div#playback { display: block; position: relative; top: auto; left: 0; right: 0; bottom: 0; min-width: 300px; width: 100%; margin: 0; padding: 0; background: #FFD700; color: #000000; }
+
+@media only screen and (min-width: 766px) { div#playback { top: auto; bottom: 0; } @supports (position: sticky) or (position: -webkit-sticky) or (position: -moz-sticky) { div#playback { position: -webkit-sticky; position: -moz-sticky; position: -ms-sticky; position: -o-sticky; top: 0px; } } }
+
+div#playback .container { padding-top: 2rem; padding-bottom: 2rem; }
+
+div#playback #audioplayer { display: block; position: relative; }
+
+div#playback #audioplayer::after { content: ""; clear: both; display: table; }
+
+div#playback #pButton { position: relative; display: inline-block; height: 50px; width: 50px; margin: auto auto; float: left; border: none; background-size: 50% 50%; background-repeat: no-repeat; background-position: center; outline: none; }
+
+div#playback .play { background: url("../images/audioplayer/play.png"); }
+
+div#playback .pause { background: url("../images/audioplayer/pause.png"); }
+
+div#playback #timeline { position: relative; display: inline-block; float: right; width: calc(100% - 100px); height: 5px; margin: 20px 0px 25px auto; background: #FFD700; border: 1px solid #000000; }
+
+div#playback #playhead { position: absolute; display: block; width: 20px; height: 20px; margin-top: -9px; background: #000000; border-radius: 50%; }
+
+div#playback #start, div#playback #end { position: absolute; display: block; margin-top: 15px; text-align: left; color: #000000; font-weight: 600; font-size: 80%; }
+
+div#playback #end { left: auto; right: 0; text-align: right; }
+
+main.home { display: block; position: relative; }
+
+@media only screen and (max-width: 765px) { main.home section, main.home aside { padding: 50px 0; } }
+
+@media only screen and (min-width: 766px) { main.home section, main.home aside { padding: 75px 0; } }
+
+main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { display: inline; color: #FFD700; background: #000000; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+@media only screen and (max-width: 599px) { main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { padding: 3px 10px; } }
+
+@media only screen and (min-width: 1200px) { main.home section h2 strong, main.home section h2 table thead, table main.home section h2 thead, main.home section h2 table tfoot, table main.home section h2 tfoot, main.home aside h2 strong, main.home aside h2 table thead, table main.home aside h2 thead, main.home aside h2 table tfoot, table main.home aside h2 tfoot { padding: 3px 15px; } }
+
+main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { display: inline; color: #000000; background: #FFD700; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+@media only screen and (max-width: 599px) { main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { padding: 5px 8px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { padding: 5px 8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { padding: 5px 8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { padding: 8px 10px; } }
+
+@media only screen and (min-width: 1200px) { main.home section .home--about--highlight-para span, main.home aside .home--about--highlight-para span { padding: 8px 15px; } }
+
+main.home section a, main.home aside a { text-decoration: underline; }
+
+main.home section a:hover, main.home section a:focus, main.home aside a:hover, main.home aside a:focus { color: #ffffff; background: #000000; outline: 3px solid #000000; text-decoration: none; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+main.home section#home--jumbotron { background: #000000; color: #ffffff; }
+
+main.home section#home--jumbotron h1 { max-width: 25ch; font-weight: normal; }
+
+main.home section#home--jumbotron h1 strong, main.home section#home--jumbotron h1 table thead, table main.home section#home--jumbotron h1 thead, main.home section#home--jumbotron h1 table tfoot, table main.home section#home--jumbotron h1 tfoot { color: #FFD700; font-weight: bold; }
+
+main.home section#home--jumbotron p { max-width: 35ch; }
+
+main.home aside#home--subscribe, main.home aside#home--be-a-guest, main.home section#home--contact { background: #FFD700; color: #000000; }
+
+main.home aside#home--subscribe h2 strong, main.home aside#home--subscribe h2 table thead, table main.home aside#home--subscribe h2 thead, main.home aside#home--subscribe h2 table tfoot, table main.home aside#home--subscribe h2 tfoot, main.home aside#home--be-a-guest h2 strong, main.home aside#home--be-a-guest h2 table thead, table main.home aside#home--be-a-guest h2 thead, main.home aside#home--be-a-guest h2 table tfoot, table main.home aside#home--be-a-guest h2 tfoot, main.home section#home--contact h2 strong, main.home section#home--contact h2 table thead, table main.home section#home--contact h2 thead, main.home section#home--contact h2 table tfoot, table main.home section#home--contact h2 tfoot { background: #000000; color: #FFD700; }
+
+@media only screen and (min-width: 766px) { main.home aside#home--subscribe p, main.home aside#home--subscribe h2, main.home aside#home--be-a-guest p, main.home aside#home--be-a-guest h2, main.home section#home--contact p, main.home section#home--contact h2 { max-width: 55ch; } }
+
+main.home section h1:first-child, main.home aside h1:first-child, main.home section h2:first-child, main.home aside h2:first-child { padding-top: 0; }
+
+main.home section p:last-child, main.home aside p:last-child { padding-bottom: 0; }
+
+main.home section#home--loop h2 { padding-bottom: 10px; }
+
+main.home section#home--loop ul { list-style: none; padding: 0; }
+
+main.home section#home--loop ul li.loop--item { padding: 0; margin: 0; border-bottom: 1px solid #000000; }
+
+main.home section#home--loop ul li.loop--item article.loop--item--content { display: inline-block; position: relative; }
+
+main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; font-weight: normal; }
+
+@media only screen and (max-width: 599px) { main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 18px; line-height: 24px; padding-bottom: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 22px; line-height: 29.3333333333px; padding-bottom: 16.5px; } }
+
+@media only screen and (min-width: 1200px) { main.home section#home--loop ul li.loop--item article.loop--item--content h3.item--content--title { font-size: 26px; line-height: 34.6666666667px; padding-bottom: 19.5px; } }
+
+main.home section#home--loop ul p:last-child { font-size: 13.5px; line-height: 24px; padding-top: 13.5px; }
+
+@media only screen and (max-width: 599px) { main.home section#home--loop ul p:last-child { font-size: 13.5px; line-height: 24px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.home section#home--loop ul p:last-child { font-size: 13.5px; line-height: 24px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.home section#home--loop ul p:last-child { font-size: 13.5px; line-height: 24px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.home section#home--loop ul p:last-child { font-size: 16.5px; line-height: 29.3333333333px; padding-top: 16.5px; } }
+
+@media only screen and (min-width: 1200px) { main.home section#home--loop ul p:last-child { font-size: 19.5px; line-height: 34.6666666667px; padding-top: 19.5px; } }
+
+main.home section#home--loop ul p:last-child a { text-decoration: none; }
+
+main.home section#home--loop ul p:last-child a:hover, main.home section#home--loop ul p:last-child a:focus { color: #FFD700; }
+
+main.post aside#breadcrumbs, main.episode aside#breadcrumbs { background: #FFD700; }
+
+@media only screen and (max-width: 599px) { main.post aside#breadcrumbs p, main.episode aside#breadcrumbs p { padding: 13.5px 0; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post aside#breadcrumbs p, main.episode aside#breadcrumbs p { padding: 13.5px 0; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post aside#breadcrumbs p, main.episode aside#breadcrumbs p { padding: 13.5px 0; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post aside#breadcrumbs p, main.episode aside#breadcrumbs p { padding: 16.5px 0; } }
+
+@media only screen and (min-width: 1200px) { main.post aside#breadcrumbs p, main.episode aside#breadcrumbs p { padding: 19.5px 0; } }
+
+@media only screen and (max-width: 765px) { main.post article#post--content, main.post article#episode--content, main.episode article#post--content, main.episode article#episode--content { padding: 30px 0 50px 0; } }
+
+@media only screen and (min-width: 766px) { main.post article#post--content, main.post article#episode--content, main.episode article#post--content, main.episode article#episode--content { padding: 30px 0 75px 0; } }
+
+main.post h1, main.episode h1 { font-size: 27px; line-height: 32.4px; padding-top: 27px; }
+
+@media only screen and (max-width: 599px) { main.post h1, main.episode h1 { font-size: 29.7px; line-height: 48.6px; padding-top: 29.7px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post h1, main.episode h1 { font-size: 22.5px; line-height: 42.1875px; padding-top: 22.5px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post h1, main.episode h1 { font-size: 31.5px; line-height: 50.4px; padding-top: 13.5px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post h1, main.episode h1 { font-size: 41.25px; line-height: 66px; padding-top: 33px; } }
+
+@media only screen and (min-width: 1200px) { main.post h1, main.episode h1 { font-size: 52px; line-height: 83.2px; padding-top: 41.6px; } }
+
+main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { display: inline; color: #FFD700; background: #000000; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+@media only screen and (max-width: 599px) { main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { padding: 3px 10px; } }
+
+@media only screen and (min-width: 1200px) { main.post h1 strong, main.post h1 table thead, table main.post h1 thead, main.post h1 table tfoot, table main.post h1 tfoot, main.episode h1 strong, main.episode h1 table thead, table main.episode h1 thead, main.episode h1 table tfoot, table main.episode h1 tfoot { padding: 3px 15px; } }
+
+main.post p, main.episode p { max-width: 60ch; }
+
+main.post aside#post--metadata, main.post aside#episode--content--metadata, main.episode aside#post--metadata, main.episode aside#episode--content--metadata { border-top: 3px solid #FFD700; }
+
+@media only screen and (max-width: 765px) { main.post aside#post--metadata, main.post aside#episode--content--metadata, main.episode aside#post--metadata, main.episode aside#episode--content--metadata { padding: 30px 0 50px 0; } }
+
+@media only screen and (min-width: 766px) { main.post aside#post--metadata, main.post aside#episode--content--metadata, main.episode aside#post--metadata, main.episode aside#episode--content--metadata { padding: 50px 0 0 0; } }
+
+main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { display: inline; color: #000000; background: #FFD700; margin-right: 25px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+
+@media only screen and (max-width: 599px) { main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { padding: 3px 8px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { padding: 3px 10px; } }
+
+@media only screen and (min-width: 1200px) { main.post aside#post--metadata strong, main.post aside#post--metadata table thead, table main.post aside#post--metadata thead, main.post aside#post--metadata table tfoot, table main.post aside#post--metadata tfoot, main.post aside#episode--content--metadata strong, main.post aside#episode--content--metadata table thead, table main.post aside#episode--content--metadata thead, main.post aside#episode--content--metadata table tfoot, table main.post aside#episode--content--metadata tfoot, main.episode aside#post--metadata strong, main.episode aside#post--metadata table thead, table main.episode aside#post--metadata thead, main.episode aside#post--metadata table tfoot, table main.episode aside#post--metadata tfoot, main.episode aside#episode--content--metadata strong, main.episode aside#episode--content--metadata table thead, table main.episode aside#episode--content--metadata thead, main.episode aside#episode--content--metadata table tfoot, table main.episode aside#episode--content--metadata tfoot { padding: 3px 8px; } }
+
+main.post aside#post--metadata a, main.post aside#episode--content--metadata a, main.episode aside#post--metadata a, main.episode aside#episode--content--metadata a { display: inline-block; margin: 2rem 0 0 0; padding: 5px 10px; border: 1px solid #000000; text-decoration: none; }
+
+main.post aside#post--metadata a:hover, main.post aside#post--metadata a:focus, main.post aside#episode--content--metadata a:hover, main.post aside#episode--content--metadata a:focus, main.episode aside#post--metadata a:hover, main.episode aside#post--metadata a:focus, main.episode aside#episode--content--metadata a:hover, main.episode aside#episode--content--metadata a:focus { background: #000000; color: #FFD700; text-decoration: none; }
+
+main.post aside#post--next-prev, main.episode aside#post--next-prev { position: relative; margin-top: 30px; border-top: 3px solid #FFD700; }
+
+@media only screen and (min-width: 766px) { main.post aside#post--next-prev, main.episode aside#post--next-prev { display: flex; } }
+
+main.post aside#post--next-prev::after, main.episode aside#post--next-prev::after { content: ""; clear: both; display: table; }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"], main.episode aside#post--next-prev p[class^="page--next-prev--"] { position: relative; flex: 1; background: #FFD700; padding: 20px; margin: 20px 0; }
+
+@media only screen and (min-width: 766px) { main.post aside#post--next-prev p[class^="page--next-prev--"]:first-child, main.episode aside#post--next-prev p[class^="page--next-prev--"]:first-child { margin-right: 10px; } main.post aside#post--next-prev p[class^="page--next-prev--"]:last-child, main.episode aside#post--next-prev p[class^="page--next-prev--"]:last-child { margin-left: 10px; } main.post aside#post--next-prev p[class^="page--next-prev--"]:only-child, main.episode aside#post--next-prev p[class^="page--next-prev--"]:only-child { margin-left: 0; margin-right: 0; } }
+
+@media only screen and (min-width: 766px) { main.post aside#post--next-prev p[class^="page--next-prev--"], main.episode aside#post--next-prev p[class^="page--next-prev--"] { width: 50%; max-width: 50%; } }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"] a, main.episode aside#post--next-prev p[class^="page--next-prev--"] a { display: inline-block; margin-left: 35px; }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"] a:hover, main.episode aside#post--next-prev p[class^="page--next-prev--"] a:hover { background: none; outline: none; }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"] a::after, main.episode aside#post--next-prev p[class^="page--next-prev--"] a::after { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"]:hover, main.post aside#post--next-prev p[class^="page--next-prev--"]:focus, main.episode aside#post--next-prev p[class^="page--next-prev--"]:hover, main.episode aside#post--next-prev p[class^="page--next-prev--"]:focus { color: #ffffff; background: #000000; outline: none; }
+
+main.post aside#post--next-prev p[class^="page--next-prev--"]::after, main.episode aside#post--next-prev p[class^="page--next-prev--"]::after { content: ""; clear: both; display: table; }
+
+@media only screen and (min-width: 766px) { main.post aside#post--next-prev p.page--next-prev--prev, main.episode aside#post--next-prev p.page--next-prev--prev { float: left; } }
+
+@media only screen and (min-width: 766px) { main.post aside#post--next-prev p.page--next-prev--next, main.episode aside#post--next-prev p.page--next-prev--next { float: right; } }
+
+main.post aside#post--next-prev p.page--next-prev--prev-blank, main.episode aside#post--next-prev p.page--next-prev--prev-blank { background: none; }
+
+main.post aside#post--next-prev p.page--next-prev--prev-blank:hover, main.episode aside#post--next-prev p.page--next-prev--prev-blank:hover { background: none; }
+
+@media only screen and (max-width: 765px) { main.post aside#post--next-prev p.page--next-prev--prev-blank, main.episode aside#post--next-prev p.page--next-prev--prev-blank { display: none; } }
+
+main.post aside#post--next-prev span.page--next-prev--arrow, main.episode aside#post--next-prev span.page--next-prev--arrow { display: block; float: left; width: 35px; }
+
+main.post aside#post--next-prev span.page--next-prev--label, main.episode aside#post--next-prev span.page--next-prev--label { display: block; font-weight: bold; }
+
+main.post div.footnotes, main.episode div.footnotes { padding-top: 96px; max-width: 600px; }
+
+main.post div.footnotes:before, main.episode div.footnotes:before { display: block; font-weight: bold; font-style: normal; text-align: left; text-decoration: none; text-transform: none; content: "Footnotes"; }
+
+@media only screen and (max-width: 599px) { main.post div.footnotes:before, main.episode div.footnotes:before { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post div.footnotes:before, main.episode div.footnotes:before { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post div.footnotes:before, main.episode div.footnotes:before { font-size: 18px; line-height: 22.5px; padding-top: 18px; padding-bottom: 6px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post div.footnotes:before, main.episode div.footnotes:before { font-size: 22px; line-height: 27.5px; padding-top: 22px; padding-bottom: 7.3333333333px; } }
+
+@media only screen and (min-width: 1200px) { main.post div.footnotes:before, main.episode div.footnotes:before { font-size: 26px; line-height: 35px; padding-top: 26px; padding-bottom: 8.6666666667px; } }
+
+@media only screen and (max-width: 599px) { main.post div.footnotes, main.episode div.footnotes { padding-top: 96px; max-width: 400px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post div.footnotes, main.episode div.footnotes { padding-top: 108px; max-width: 500px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post div.footnotes, main.episode div.footnotes { padding-top: 108px; max-width: 450px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post div.footnotes, main.episode div.footnotes { padding-top: 120px; max-width: 600px; } }
+
+@media only screen and (min-width: 1200px) { main.post div.footnotes, main.episode div.footnotes { padding-top: 132px; max-width: 600px; } }
+
+main.post div.footnotes ul, main.post div.footnotes ol, main.episode div.footnotes ul, main.episode div.footnotes ol { padding-left: 32px; }
+
+main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; font-weight: normal; }
+
+@media only screen and (max-width: 599px) { main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 16px; line-height: 20px; padding-bottom: 16px; } }
+
+@media only screen and (min-width: 600px) and (max-width: 765px) { main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 766px) and (max-width: 999px) { main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 18px; line-height: 22.5px; padding-bottom: 18px; } }
+
+@media only screen and (min-width: 1000px) and (max-width: 1199px) { main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 20px; line-height: 25px; padding-bottom: 20px; } }
+
+@media only screen and (min-width: 1200px) { main.post div.footnotes p, main.post div.footnotes li, main.episode div.footnotes p, main.episode div.footnotes li { font-size: 22px; line-height: 26.4px; padding-bottom: 22px; } }
+
+/*# sourceMappingURL=styles.css.map */
